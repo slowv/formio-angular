@@ -1,0 +1,30 @@
+<div id="form-builder-component">
+  <div class="row">
+    <app-page-header
+      [title]="form.name ? form.name : 'Create form'"
+      [subTitle]="form.title ? form.title : 'This is a subtitle'"
+    ></app-page-header>
+    <div class="col-12" id="form-information">
+      <label for="form-name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="form-name" placeholder="Form name" [ngModel]="form.name"
+             (ngModelChange)="changeName($event)">
+    </div>
+
+    <div class="col-6 mt-2">
+      <label for="form-title" class="form-label">Title</label>
+      <input type="text" class="form-control" id="form-title" placeholder="Form title" [ngModel]="form.title"
+             (ngModelChange)="changeTitle($event)">
+    </div>
+    <div class="col-6 mt-2">
+      <label for="form-tags" class="form-label">Tags</label>
+      <input type="text" class="form-control" id="form-tags" placeholder="Form tags" (change)="onChangeTag($event)">
+    </div>
+
+    <div class="col-12 mt-5" id="form-builder">
+      <form-builder [form]="form" (change)="onBuilderChange($event)"></form-builder>
+    </div>
+    <div class="col-4 offset-4">
+      <button (click)="saveForm()" class="btn btn-primary mt-2 w-100" type="button">Save form</button>
+    </div>
+  </div>
+</div>

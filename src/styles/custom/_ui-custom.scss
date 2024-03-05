@@ -1,0 +1,145 @@
+.ant-layout-sider {
+  background: none;
+}
+
+.ant-layout {
+  background: #fff;
+}
+
+.ant-menu-dark .ant-menu-inline.ant-menu-sub {
+  background: transparent;
+
+  ul {
+    background: transparent;
+  }
+}
+
+.ant-menu.ant-menu-dark {
+  background: transparent;
+}
+
+.ant-layout-sider-children {
+
+  .ant-menu {
+    font-size: 16px;
+  }
+
+  > ul {
+
+    > li {
+
+      ul {
+        li.ant-menu-item {
+          padding: 0 20px 0 20px !important;
+        }
+      }
+
+      .ant-menu-submenu-title {
+        margin-top: 0 !important;
+
+        &:hover {
+          background: $secondary;
+        }
+        background: $primary;
+      }
+
+      &.ant-menu-submenu-selected {
+        .ant-menu-submenu-title {
+          background: $secondary;
+          height: 50px;
+          line-height: 50px;
+        }
+      }
+
+      .ant-menu-sub {
+
+        > ul {
+
+          > li {
+            margin-bottom: 5px;
+            background: $primary;
+          }
+        }
+      }
+    }
+  }
+
+  .ant-menu-item {
+    margin: 0 0 4px 0 !important;
+    padding: 0 20px 0 0 !important;
+    background: $primary;
+    height: 50px;
+    line-height: 50px;
+
+    &:hover {
+      background: $secondary !important;
+    }
+
+    &.ant-menu-item-selected {
+      background: rgba($secondary, 0.53) !important;
+    }
+  }
+}
+
+
+.ant-btn {
+  border-radius: 5px;
+}
+
+.ant-btn-lg {
+  border-radius: 0;
+  min-width: 300px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.ant-table {
+  font-size: 12px;
+
+  thead tr th {
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 0;
+      min-height: 34px;
+    }
+  }
+}
+
+.ant-table-thead > tr > th {
+  background: none;
+  border-top: 1px solid $text-dark;
+  border-bottom: 1px solid $text-dark;
+  color: $text-dark;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid $text-dark;
+}
+
+.ant-tabs-tab {
+  padding: 12px 30px;
+  font-weight: bold;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #FCC424;
+  font-weight: bold;
+}
+
+.ant-tabs-ink-bar {
+  position: absolute;
+  background: #FCC424;
+  pointer-events: none;
+}
+
+.ant-tabs-top > .ant-tabs-nav::before, .ant-tabs-bottom > .ant-tabs-nav::before, .ant-tabs-top > div > .ant-tabs-nav::before, .ant-tabs-bottom > div > .ant-tabs-nav::before {
+  position: absolute;
+  right: 0;
+  left: 0;
+  border: none;
+  content: '';
+}
+
+

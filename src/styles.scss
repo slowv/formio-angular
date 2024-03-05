@@ -1,1 +1,146 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  word-break: break-word;
+}
+
+.inner-content {
+  display: flex;
+  flex: 1 1;
+  padding: 20px;
+}
+
+.main-content {
+  padding: 20px;
+  margin-left: 1px;
+  width: 100%;
+}
+
+
+.inner-layout {
+  min-height: calc(100vh - 104px);
+  padding: 20px;
+  background: #fff;
+}
+
+.ant-layout-sider {
+  background: #fff;
+  height: calc(100vh - 64px);
+}
+
+.ant-layout-header {
+  padding: 0 20px;
+}
+
+body {
+  font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.ant-menu-inline {
+  border: none;
+}
+
+.bg-success {
+  background: #e9f8c3;
+}
+
+.bg-error {
+  background: #ec695a;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-info {
+  background: #82d4ef
+}
+
+.text-success {
+  color: #97be0d
+}
+
+.text-warning {
+  color: #fff3cd
+}
+
+.text-info {
+  color: #82d4ef
+}
+
+.text-danger {
+  color: #ec695a;
+}
+
+.border-bot {
+  border-bottom: 1px solid #3c3c3c;
+}
+
+.text-secondary {
+  color: #ababab;
+}
+
+.border-right {
+  border-right: 0.1em solid #eeeeee;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  &.flex-center {
+    justify-content: center;
+  }
+
+  &.flex-right {
+    justify-content: flex-end;
+  }
+}

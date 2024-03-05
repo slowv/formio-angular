@@ -1,0 +1,8 @@
+@import 'src/styles/variables';
+
+.lms-container {
+	width: 1340px;
+	max-width: 100%;
+	margin: auto;
+	padding: 0 $gutter;
+}

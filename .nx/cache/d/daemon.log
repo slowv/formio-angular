@@ -1,0 +1,802 @@
+[NX Daemon Server] - 2024-03-05T06:56:15.564Z - Started listening on: \\.\pipe\nx\C:\Users\viettq\AppData\Local\Temp\98b7ebfbbeb85b18f938\d.sock
+[NX Daemon Server] - 2024-03-05T06:56:15.579Z - [WATCHER]: Subscribed to changes within: C:\Users\viettq\Documents\Development\angular_form_builder\demo-form-builder (native)
+[NX Daemon Server] - 2024-03-05T06:56:15.582Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-05T06:56:15.585Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-05T06:56:15.589Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-05T06:56:15.594Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-03-05T06:56:15.597Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T06:56:15.597Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T06:56:15.597Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T06:56:15.703Z - Time taken for 'hash changed files from watcher' 1.0500999999931082ms
+[NX Daemon Server] - 2024-03-05T06:56:21.760Z - Time taken for 'build-project-configs' 46.90799999999581ms
+[NX Daemon Server] - 2024-03-05T06:56:21.842Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-03-05T06:56:21.845Z - Time taken for 'total for creating and serializing project graph' 6247.323700000008ms
+[NX Daemon Server] - 2024-03-05T06:56:21.846Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-03-05T06:56:21.846Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 6247. Response time: 5.
+[NX Daemon Server] - 2024-03-05T06:56:21.855Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-03-05T06:57:30.940Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T06:57:34.018Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:00:51.990Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:00:51.993Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-05T07:00:51.994Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:00:51.995Z - Time taken for 'changed-projects' 0.1578999999910593ms
+[NX Daemon Server] - 2024-03-05T07:00:51.995Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:00:51.995Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:00:52.101Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:00:52.101Z - [REQUEST]: src/app/pages/form/list/list.component.html,src/app/pages/form/list/list.component.ts
+[NX Daemon Server] - 2024-03-05T07:00:52.101Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:00:52.189Z - Time taken for 'hash changed files from watcher' 1.273700000019744ms
+[NX Daemon Server] - 2024-03-05T07:00:52.591Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:00:54.122Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:00:58.381Z - Time taken for 'build-project-configs' 31.0168999999878ms
+[NX Daemon Server] - 2024-03-05T07:00:58.482Z - Time taken for 'total execution time for createProjectGraph()' 106.91190000000643ms
+[NX Daemon Server] - 2024-03-05T07:03:41.435Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:03:41.438Z - [WATCHER]: src/app/pages/form/builder/builder.component.ts was modified
+[NX Daemon Server] - 2024-03-05T07:03:41.438Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:03:41.438Z - Time taken for 'changed-projects' 0.06339999998454005ms
+[NX Daemon Server] - 2024-03-05T07:03:41.439Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:03:41.439Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:03:41.577Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:03:41.646Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:03:41.646Z - [REQUEST]: src/app/pages/form/builder/builder.component.ts
+[NX Daemon Server] - 2024-03-05T07:03:41.646Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:03:41.751Z - Time taken for 'hash changed files from watcher' 5.0825999999651685ms
+[NX Daemon Server] - 2024-03-05T07:03:43.569Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:03:47.363Z - Time taken for 'build-project-configs' 26.559699999983422ms
+[NX Daemon Server] - 2024-03-05T07:03:47.428Z - Time taken for 'total execution time for createProjectGraph()' 67.82129999995232ms
+[NX Daemon Server] - 2024-03-05T07:04:27.893Z - [WATCHER]: src/app/pages/form/builder/builder.component.ts was modified
+[NX Daemon Server] - 2024-03-05T07:04:27.894Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:04:27.894Z - Time taken for 'changed-projects' 0.4512000000104308ms
+[NX Daemon Server] - 2024-03-05T07:04:27.895Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:04:27.895Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:04:27.895Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:04:28.100Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:04:28.312Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:04:28.312Z - [REQUEST]: src/app/pages/form/builder/builder.component.ts
+[NX Daemon Server] - 2024-03-05T07:04:28.312Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:04:28.607Z - Time taken for 'hash changed files from watcher' 0.3852999999653548ms
+[NX Daemon Server] - 2024-03-05T07:04:30.074Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:04:33.291Z - Time taken for 'build-project-configs' 19.710500000044703ms
+[NX Daemon Server] - 2024-03-05T07:04:33.355Z - Time taken for 'total execution time for createProjectGraph()' 55.01530000008643ms
+[NX Daemon Server] - 2024-03-05T07:04:40.076Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:04:40.081Z - [WATCHER]: src/app/pages/form/builder/builder.component.ts was modified
+[NX Daemon Server] - 2024-03-05T07:04:40.082Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:04:40.083Z - Time taken for 'changed-projects' 0.24450000002980232ms
+[NX Daemon Server] - 2024-03-05T07:04:40.083Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:04:40.083Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:04:40.259Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:04:40.900Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:04:40.900Z - [REQUEST]: src/app/pages/form/builder/builder.component.ts
+[NX Daemon Server] - 2024-03-05T07:04:40.900Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:04:41.225Z - Time taken for 'hash changed files from watcher' 0.35999999998603016ms
+[NX Daemon Server] - 2024-03-05T07:04:41.576Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:04:46.278Z - Time taken for 'build-project-configs' 52.697399999946356ms
+[NX Daemon Server] - 2024-03-05T07:04:46.391Z - Time taken for 'total execution time for createProjectGraph()' 125.87510000006296ms
+[NX Daemon Server] - 2024-03-05T07:05:43.007Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:05:43.035Z - [WATCHER]: src/app/pages/form/builder/builder.component.ts was modified
+[NX Daemon Server] - 2024-03-05T07:05:43.037Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:05:43.038Z - Time taken for 'changed-projects' 0.166800000006333ms
+[NX Daemon Server] - 2024-03-05T07:05:43.038Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:05:43.038Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:05:43.164Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:05:43.812Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:05:44.650Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:05:44.650Z - [REQUEST]: src/app/pages/form/builder/builder.component.ts
+[NX Daemon Server] - 2024-03-05T07:05:44.650Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:05:44.700Z - Time taken for 'hash changed files from watcher' 0.333199999993667ms
+[NX Daemon Server] - 2024-03-05T07:05:50.130Z - Time taken for 'build-project-configs' 55.47259999997914ms
+[NX Daemon Server] - 2024-03-05T07:05:50.264Z - Time taken for 'total execution time for createProjectGraph()' 142.27469999995083ms
+[NX Daemon Server] - 2024-03-05T07:05:52.245Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:05:54.132Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:05:54.135Z - [WATCHER]: src/app/pages/form/builder/builder.component.ts was modified
+[NX Daemon Server] - 2024-03-05T07:05:54.137Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:05:54.137Z - Time taken for 'changed-projects' 0.13660000008530915ms
+[NX Daemon Server] - 2024-03-05T07:05:54.137Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:05:54.137Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:05:54.274Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:05:55.069Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:05:57.340Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:05:57.340Z - [REQUEST]: src/app/pages/form/builder/builder.component.ts
+[NX Daemon Server] - 2024-03-05T07:05:57.340Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:05:57.407Z - Time taken for 'hash changed files from watcher' 0.5831000001635402ms
+[NX Daemon Server] - 2024-03-05T07:05:57.976Z - [WATCHER]: src/app/pages/form/builder/builder.component.ts was modified
+[NX Daemon Server] - 2024-03-05T07:05:57.978Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:05:57.978Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:05:57.978Z - Time taken for 'changed-projects' 0.083199999993667ms
+[NX Daemon Server] - 2024-03-05T07:05:57.978Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:05:57.978Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:05:58.962Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:06:01.244Z - Time taken for 'build-project-configs' 31.993299999972805ms
+[NX Daemon Server] - 2024-03-05T07:06:01.310Z - Time taken for 'total execution time for createProjectGraph()' 68.38999999989755ms
+[NX Daemon Server] - 2024-03-05T07:06:04.378Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:06:04.378Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:06:04.378Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:06:04.427Z - Time taken for 'hash changed files from watcher' 0.08809999981895089ms
+[NX Daemon Server] - 2024-03-05T07:06:05.129Z - [WATCHER]: src/app/pages/form/builder/builder.component.ts was modified
+[NX Daemon Server] - 2024-03-05T07:06:05.130Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:06:05.130Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:06:05.130Z - Time taken for 'changed-projects' 0.06990000000223517ms
+[NX Daemon Server] - 2024-03-05T07:06:05.130Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:06:05.130Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:06:05.835Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:06:08.875Z - Time taken for 'build-project-configs' 43.170700000133365ms
+[NX Daemon Server] - 2024-03-05T07:06:08.944Z - Time taken for 'total execution time for createProjectGraph()' 77.13789999997243ms
+[NX Daemon Server] - 2024-03-05T07:06:11.533Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:06:11.534Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:06:11.534Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:06:11.695Z - Time taken for 'hash changed files from watcher' 0.2273999999742955ms
+[NX Daemon Server] - 2024-03-05T07:06:11.892Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:06:11.896Z - [WATCHER]: src/app/pages/form/builder/builder.component.ts was modified
+[NX Daemon Server] - 2024-03-05T07:06:11.901Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:06:11.902Z - Time taken for 'changed-projects' 0.14730000006966293ms
+[NX Daemon Server] - 2024-03-05T07:06:11.902Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:06:11.902Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-05T07:06:12.077Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:06:13.254Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:06:17.366Z - Time taken for 'build-project-configs' 45.599200000055134ms
+[NX Daemon Server] - 2024-03-05T07:06:17.426Z - Time taken for 'total execution time for createProjectGraph()' 63.0969000000041ms
+[NX Daemon Server] - 2024-03-05T07:06:18.302Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:06:18.302Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:06:18.302Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:06:18.359Z - Time taken for 'hash changed files from watcher' 0.19610000005923212ms
+[NX Daemon Server] - 2024-03-05T07:06:21.835Z - Time taken for 'build-project-configs' 24.22789999982342ms
+[NX Daemon Server] - 2024-03-05T07:06:21.872Z - Time taken for 'total execution time for createProjectGraph()' 40.21240000007674ms
+[NX Daemon Server] - 2024-03-05T07:06:27.798Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:06:27.800Z - [WATCHER]: src/app/pages/form/builder/builder.component.ts was modified
+[NX Daemon Server] - 2024-03-05T07:06:27.800Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:06:27.800Z - Time taken for 'changed-projects' 0.09630000009201467ms
+[NX Daemon Server] - 2024-03-05T07:06:27.801Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:06:27.801Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:06:27.877Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:06:28.348Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:06:34.212Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:06:34.212Z - [REQUEST]: src/app/pages/form/builder/builder.component.ts
+[NX Daemon Server] - 2024-03-05T07:06:34.212Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:06:34.302Z - Time taken for 'hash changed files from watcher' 0.40529999998398125ms
+[NX Daemon Server] - 2024-03-05T07:06:37.575Z - Time taken for 'build-project-configs' 46.718400000128895ms
+[NX Daemon Server] - 2024-03-05T07:06:37.644Z - Time taken for 'total execution time for createProjectGraph()' 72.89209999982268ms
+[NX Daemon Server] - 2024-03-05T07:09:19.726Z - [WATCHER]: src/app/pages/form/builder/builder.component.ts was modified
+[NX Daemon Server] - 2024-03-05T07:09:19.729Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:09:19.729Z - Time taken for 'changed-projects' 0.11389999999664724ms
+[NX Daemon Server] - 2024-03-05T07:09:19.729Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:09:19.729Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:09:19.730Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:09:19.847Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:09:20.747Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:09:26.152Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:09:26.152Z - [REQUEST]: src/app/pages/form/builder/builder.component.ts
+[NX Daemon Server] - 2024-03-05T07:09:26.152Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:09:26.243Z - Time taken for 'hash changed files from watcher' 7.787599999923259ms
+[NX Daemon Server] - 2024-03-05T07:09:27.122Z - [WATCHER]: src/app/pages/form/builder/builder.component.ts was modified
+[NX Daemon Server] - 2024-03-05T07:09:27.125Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:09:27.126Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:09:27.126Z - Time taken for 'changed-projects' 0.0934999999590218ms
+[NX Daemon Server] - 2024-03-05T07:09:27.126Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:09:27.126Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:09:28.350Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:09:31.207Z - Time taken for 'build-project-configs' 21.904800000134856ms
+[NX Daemon Server] - 2024-03-05T07:09:31.269Z - Time taken for 'total execution time for createProjectGraph()' 64.30799999996088ms
+[NX Daemon Server] - 2024-03-05T07:09:33.544Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:09:33.546Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:09:33.546Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:09:34.185Z - Time taken for 'hash changed files from watcher' 0.7996999998576939ms
+[NX Daemon Server] - 2024-03-05T07:09:39.535Z - Time taken for 'build-project-configs' 30.443399999989197ms
+[NX Daemon Server] - 2024-03-05T07:09:39.576Z - Time taken for 'total execution time for createProjectGraph()' 48.23909999988973ms
+[NX Daemon Server] - 2024-03-05T07:10:43.115Z - [WATCHER]: src/app/pages/form/builder/builder.component.ts was modified
+[NX Daemon Server] - 2024-03-05T07:10:43.116Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:10:43.116Z - Time taken for 'changed-projects' 0.1497000001836568ms
+[NX Daemon Server] - 2024-03-05T07:10:43.117Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:10:43.117Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:10:43.123Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:10:43.204Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:10:43.739Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:10:49.527Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:10:49.528Z - [REQUEST]: src/app/pages/form/builder/builder.component.ts
+[NX Daemon Server] - 2024-03-05T07:10:49.528Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:10:49.627Z - Time taken for 'hash changed files from watcher' 3.685600000200793ms
+[NX Daemon Server] - 2024-03-05T07:10:53.805Z - Time taken for 'build-project-configs' 26.032700000097975ms
+[NX Daemon Server] - 2024-03-05T07:10:53.865Z - Time taken for 'total execution time for createProjectGraph()' 62.330400000093505ms
+[NX Daemon Server] - 2024-03-05T07:12:03.911Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:12:03.915Z - [WATCHER]: 0 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-05T07:12:03.916Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:12:03.918Z - Time taken for 'changed-projects' 0.10530000017024577ms
+[NX Daemon Server] - 2024-03-05T07:12:03.919Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:12:03.919Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-03-05T07:12:05.070Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:12:10.328Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:12:10.328Z - [REQUEST]: src/app/pages/form/list/list.component.html,src/app/pages/form/list/list.component.ts,src/app/pages/form/builder/builder.component.ts
+[NX Daemon Server] - 2024-03-05T07:12:10.328Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:12:10.423Z - Time taken for 'hash changed files from watcher' 3.3352999999187887ms
+[NX Daemon Server] - 2024-03-05T07:12:13.613Z - Time taken for 'build-project-configs' 27.874900000169873ms
+[NX Daemon Server] - 2024-03-05T07:12:13.664Z - Time taken for 'total execution time for createProjectGraph()' 52.73519999999553ms
+[NX Daemon Server] - 2024-03-05T07:12:32.488Z - [WATCHER]: src/app/pages/form/list/list.component.ts was modified
+[NX Daemon Server] - 2024-03-05T07:12:32.489Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:12:32.489Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:12:32.489Z - Time taken for 'changed-projects' 0.07190000009723008ms
+[NX Daemon Server] - 2024-03-05T07:12:32.489Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:12:32.489Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:12:32.550Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:12:33.167Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:12:38.903Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:12:38.903Z - [REQUEST]: src/app/pages/form/list/list.component.ts
+[NX Daemon Server] - 2024-03-05T07:12:38.903Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:12:39.005Z - Time taken for 'hash changed files from watcher' 3.9627999998629093ms
+[NX Daemon Server] - 2024-03-05T07:12:42.011Z - Time taken for 'build-project-configs' 46.55609999992885ms
+[NX Daemon Server] - 2024-03-05T07:12:42.085Z - Time taken for 'total execution time for createProjectGraph()' 81.062900000019ms
+[NX Daemon Server] - 2024-03-05T07:17:21.915Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:17:21.917Z - [WATCHER]: src/app/pages/form/builder/builder.component.ts was modified
+[NX Daemon Server] - 2024-03-05T07:17:21.918Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:17:21.918Z - Time taken for 'changed-projects' 0.07019999995827675ms
+[NX Daemon Server] - 2024-03-05T07:17:21.918Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:17:21.918Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:17:22.025Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:17:22.498Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:17:28.331Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:17:28.331Z - [REQUEST]: src/app/pages/form/builder/builder.component.ts
+[NX Daemon Server] - 2024-03-05T07:17:28.331Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:17:28.422Z - Time taken for 'hash changed files from watcher' 3.239700000034645ms
+[NX Daemon Server] - 2024-03-05T07:17:32.828Z - Time taken for 'build-project-configs' 36.781999999890104ms
+[NX Daemon Server] - 2024-03-05T07:17:32.956Z - Time taken for 'total execution time for createProjectGraph()' 138.38189999992028ms
+[NX Daemon Server] - 2024-03-05T07:18:36.733Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:18:36.735Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-05T07:18:36.736Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:18:36.736Z - Time taken for 'changed-projects' 0.047900000121444464ms
+[NX Daemon Server] - 2024-03-05T07:18:36.736Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:18:36.736Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:18:36.827Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:18:37.267Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:18:43.145Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:18:43.145Z - [REQUEST]: src/app/pages/form/builder/builder.component.html,src/app/pages/form/builder/builder.component.ts
+[NX Daemon Server] - 2024-03-05T07:18:43.145Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:18:43.262Z - Time taken for 'hash changed files from watcher' 4.507800000021234ms
+[NX Daemon Server] - 2024-03-05T07:18:46.314Z - Time taken for 'build-project-configs' 28.63119999994524ms
+[NX Daemon Server] - 2024-03-05T07:18:46.380Z - Time taken for 'total execution time for createProjectGraph()' 69.36080000014044ms
+[NX Daemon Server] - 2024-03-05T07:19:16.816Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:19:16.818Z - [WATCHER]: src/app/pages/form/builder/builder.component.html was modified
+[NX Daemon Server] - 2024-03-05T07:19:16.819Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:19:16.819Z - Time taken for 'changed-projects' 0.05579999997280538ms
+[NX Daemon Server] - 2024-03-05T07:19:16.819Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:19:16.819Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:19:16.923Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:19:17.397Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:19:23.234Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:19:23.234Z - [REQUEST]: src/app/pages/form/builder/builder.component.html
+[NX Daemon Server] - 2024-03-05T07:19:23.234Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:19:23.286Z - Time taken for 'hash changed files from watcher' 3.2398999999277294ms
+[NX Daemon Server] - 2024-03-05T07:19:26.781Z - Time taken for 'build-project-configs' 27.996499999891967ms
+[NX Daemon Server] - 2024-03-05T07:19:26.837Z - Time taken for 'total execution time for createProjectGraph()' 57.51949999993667ms
+[NX Daemon Server] - 2024-03-05T07:25:22.937Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:25:22.943Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-05T07:25:22.945Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:25:22.945Z - Time taken for 'changed-projects' 0.11029999982565641ms
+[NX Daemon Server] - 2024-03-05T07:25:22.945Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:25:22.945Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:25:23.419Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:25:24.252Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:25:29.366Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:25:29.366Z - [REQUEST]: src/app/services/form/form.service.ts,src/app/pages/form/builder/builder.component.ts
+[NX Daemon Server] - 2024-03-05T07:25:29.366Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:25:29.600Z - Time taken for 'hash changed files from watcher' 5.385299999965355ms
+[NX Daemon Server] - 2024-03-05T07:25:44.029Z - Time taken for 'build-project-configs' 43.56389999995008ms
+[NX Daemon Server] - 2024-03-05T07:25:44.162Z - Time taken for 'total execution time for createProjectGraph()' 143.3874000001233ms
+[NX Daemon Server] - 2024-03-05T07:26:18.119Z - [WATCHER]: src/app/services/form/form.service.ts was modified
+[NX Daemon Server] - 2024-03-05T07:26:18.120Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:26:18.120Z - Time taken for 'changed-projects' 0.046199999982491136ms
+[NX Daemon Server] - 2024-03-05T07:26:18.120Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:26:18.120Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:26:18.120Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:26:18.196Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:26:18.819Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:26:24.535Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:26:24.536Z - [REQUEST]: src/app/services/form/form.service.ts
+[NX Daemon Server] - 2024-03-05T07:26:24.536Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:26:24.592Z - Time taken for 'hash changed files from watcher' 0.9247999999206513ms
+[NX Daemon Server] - 2024-03-05T07:26:27.710Z - Time taken for 'build-project-configs' 29.625ms
+[NX Daemon Server] - 2024-03-05T07:26:27.777Z - Time taken for 'total execution time for createProjectGraph()' 70.38270000019111ms
+[NX Daemon Server] - 2024-03-05T07:43:35.645Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:43:59.604Z - [WATCHER]: src/app/pages/form/list/list.component.html was modified
+[NX Daemon Server] - 2024-03-05T07:43:59.605Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:43:59.605Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:43:59.605Z - Time taken for 'changed-projects' 0.28590000001713634ms
+[NX Daemon Server] - 2024-03-05T07:43:59.605Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:43:59.605Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:43:59.665Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:44:06.020Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:44:06.020Z - [REQUEST]: src/app/pages/form/list/list.component.html
+[NX Daemon Server] - 2024-03-05T07:44:06.020Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:44:06.072Z - Time taken for 'hash changed files from watcher' 0.3248000000603497ms
+[NX Daemon Server] - 2024-03-05T07:44:09.292Z - Time taken for 'build-project-configs' 28.180099999997765ms
+[NX Daemon Server] - 2024-03-05T07:44:09.344Z - Time taken for 'total execution time for createProjectGraph()' 56.95669999998063ms
+[NX Daemon Server] - 2024-03-05T07:44:15.542Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:46:41.389Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:46:41.394Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-05T07:46:41.512Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:46:41.512Z - [REQUEST]: src/app/pages/submission/add-submission/add-submission.component.ts,src/app/pages/submission/add-submission/add-submission.component.scss,src/app/pages/submission/add-submission/add-submission.component.html
+[NX Daemon Server] - 2024-03-05T07:46:41.512Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:46:41.635Z - Time taken for 'hash changed files from watcher' 5.291600000113249ms
+[NX Daemon Server] - 2024-03-05T07:46:45.790Z - Time taken for 'build-project-configs' 32.83210000023246ms
+[NX Daemon Server] - 2024-03-05T07:46:45.858Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:46:45.858Z - Time taken for 'total execution time for createProjectGraph()' 75.39289999986067ms
+[NX Daemon Server] - 2024-03-05T07:46:45.858Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:46:45.859Z - Handled FILE-WATCH-CHANGED. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:47:06.073Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:47:06.076Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-05T07:47:06.184Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:47:06.184Z - [REQUEST]: src/app/pages/submission/list-submission/list-submission.component.scss,src/app/pages/submission/list-submission/list-submission.component.html,src/app/pages/submission/list-submission/list-submission.component.ts
+[NX Daemon Server] - 2024-03-05T07:47:06.184Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:47:06.234Z - Time taken for 'hash changed files from watcher' 2.6719999997876585ms
+[NX Daemon Server] - 2024-03-05T07:47:10.236Z - Time taken for 'build-project-configs' 40.07589999958873ms
+[NX Daemon Server] - 2024-03-05T07:47:10.299Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:47:10.300Z - Time taken for 'total execution time for createProjectGraph()' 65.5179999996908ms
+[NX Daemon Server] - 2024-03-05T07:47:10.300Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:47:10.300Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:48:20.625Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:48:20.627Z - [WATCHER]: src/app/pages/submission/submission.module.ts was created or restored
+[NX Daemon Server] - 2024-03-05T07:48:20.742Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:48:20.743Z - [REQUEST]: src/app/pages/submission/submission.module.ts
+[NX Daemon Server] - 2024-03-05T07:48:20.743Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:48:20.865Z - Time taken for 'hash changed files from watcher' 1.8178000003099442ms
+[NX Daemon Server] - 2024-03-05T07:48:26.342Z - Time taken for 'build-project-configs' 41.03209999995306ms
+[NX Daemon Server] - 2024-03-05T07:48:26.473Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:48:26.474Z - Time taken for 'total execution time for createProjectGraph()' 139.69120000023395ms
+[NX Daemon Server] - 2024-03-05T07:48:26.474Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:48:26.474Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:48:50.295Z - [WATCHER]: src/app/pages/submission/submission-routing.module.ts was created or restored
+[NX Daemon Server] - 2024-03-05T07:48:50.296Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:48:50.403Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:48:50.403Z - [REQUEST]: src/app/pages/submission/submission-routing.module.ts
+[NX Daemon Server] - 2024-03-05T07:48:50.404Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:48:50.593Z - Time taken for 'hash changed files from watcher' 0.8341000000946224ms
+[NX Daemon Server] - 2024-03-05T07:48:54.889Z - Time taken for 'build-project-configs' 28.157800000160933ms
+[NX Daemon Server] - 2024-03-05T07:48:54.967Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:48:54.968Z - Time taken for 'total execution time for createProjectGraph()' 84.27840000018477ms
+[NX Daemon Server] - 2024-03-05T07:48:54.969Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:48:54.969Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-05T07:50:25.674Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:50:25.685Z - [WATCHER]: src/app/pages/submission/submission-routing.module.ts was modified
+[NX Daemon Server] - 2024-03-05T07:50:25.687Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:50:25.687Z - Time taken for 'changed-projects' 0.18769999966025352ms
+[NX Daemon Server] - 2024-03-05T07:50:25.688Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:50:25.688Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:50:25.890Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:50:25.890Z - [REQUEST]: src/app/pages/submission/submission-routing.module.ts
+[NX Daemon Server] - 2024-03-05T07:50:25.891Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:50:25.989Z - Time taken for 'hash changed files from watcher' 0.8342999997548759ms
+[NX Daemon Server] - 2024-03-05T07:50:26.946Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:50:30.048Z - Time taken for 'build-project-configs' 23.461600000038743ms
+[NX Daemon Server] - 2024-03-05T07:50:30.119Z - Time taken for 'total execution time for createProjectGraph()' 73.93899999978021ms
+[NX Daemon Server] - 2024-03-05T07:51:33.360Z - [WATCHER]: src/app/pages/submission/submission-routing.module.ts was modified
+[NX Daemon Server] - 2024-03-05T07:51:33.361Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:51:33.361Z - Time taken for 'changed-projects' 0.08480000030249357ms
+[NX Daemon Server] - 2024-03-05T07:51:33.361Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:51:33.361Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:51:33.383Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:51:33.699Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:51:33.776Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:51:33.776Z - [REQUEST]: src/app/pages/submission/submission-routing.module.ts
+[NX Daemon Server] - 2024-03-05T07:51:33.776Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:51:33.942Z - Time taken for 'hash changed files from watcher' 0.6066999998874962ms
+[NX Daemon Server] - 2024-03-05T07:51:38.284Z - Time taken for 'build-project-configs' 25.290899999905378ms
+[NX Daemon Server] - 2024-03-05T07:51:38.449Z - Time taken for 'total execution time for createProjectGraph()' 168.2001000000164ms
+[NX Daemon Server] - 2024-03-05T07:52:29.763Z - [WATCHER]: src/app/app.routes.ts was modified
+[NX Daemon Server] - 2024-03-05T07:52:29.764Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:52:29.764Z - Time taken for 'changed-projects' 0.05839999997988343ms
+[NX Daemon Server] - 2024-03-05T07:52:29.764Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:52:29.764Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:52:29.764Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:52:30.569Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:52:30.570Z - [REQUEST]: src/app/app.routes.ts
+[NX Daemon Server] - 2024-03-05T07:52:30.571Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:52:30.791Z - Time taken for 'hash changed files from watcher' 0.5265999999828637ms
+[NX Daemon Server] - 2024-03-05T07:52:32.798Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:52:39.614Z - Time taken for 'build-project-configs' 42.285199999809265ms
+[NX Daemon Server] - 2024-03-05T07:52:39.780Z - Time taken for 'total execution time for createProjectGraph()' 164.17390000028536ms
+[NX Daemon Server] - 2024-03-05T07:53:46.250Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:53:46.261Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-05T07:53:46.262Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:53:46.262Z - Time taken for 'changed-projects' 0.09529999969527125ms
+[NX Daemon Server] - 2024-03-05T07:53:46.262Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:53:46.262Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:53:46.483Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:53:46.982Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:53:47.862Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:53:47.863Z - [REQUEST]: src/app/pages/submission/submission-routing.module.ts,src/app/pages/submission/submission.module.ts
+[NX Daemon Server] - 2024-03-05T07:53:47.863Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:53:47.913Z - Time taken for 'hash changed files from watcher' 0.38549999985843897ms
+[NX Daemon Server] - 2024-03-05T07:53:51.171Z - Time taken for 'build-project-configs' 22.347399999853224ms
+[NX Daemon Server] - 2024-03-05T07:53:51.237Z - Time taken for 'total execution time for createProjectGraph()' 73.40020000003278ms
+[NX Daemon Server] - 2024-03-05T07:54:12.149Z - [WATCHER]: src/app/pages/submission/submission-routing.module.ts was modified
+[NX Daemon Server] - 2024-03-05T07:54:12.150Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:54:12.150Z - Time taken for 'changed-projects' 0.07679999992251396ms
+[NX Daemon Server] - 2024-03-05T07:54:12.150Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:54:12.150Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:54:12.151Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:54:12.242Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:54:12.791Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:54:15.354Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:54:15.354Z - [REQUEST]: src/app/pages/submission/submission-routing.module.ts
+[NX Daemon Server] - 2024-03-05T07:54:15.354Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:54:15.410Z - Time taken for 'hash changed files from watcher' 0.35239999974146485ms
+[NX Daemon Server] - 2024-03-05T07:54:20.798Z - Time taken for 'build-project-configs' 46.86730000004172ms
+[NX Daemon Server] - 2024-03-05T07:54:20.891Z - Time taken for 'total execution time for createProjectGraph()' 96.28899999987334ms
+[NX Daemon Server] - 2024-03-05T07:54:57.944Z - [WATCHER]: src/app/pages/submission/submission.module.ts was modified
+[NX Daemon Server] - 2024-03-05T07:54:57.944Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:54:57.944Z - Time taken for 'changed-projects' 0.06239999970421195ms
+[NX Daemon Server] - 2024-03-05T07:54:57.944Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:54:57.945Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:54:57.945Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:54:58.038Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:55:03.072Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:55:03.074Z - [WATCHER]: src/app/pages/submission/submission.module.ts was modified
+[NX Daemon Server] - 2024-03-05T07:55:03.074Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:55:03.074Z - Time taken for 'changed-projects' 0.06929999962449074ms
+[NX Daemon Server] - 2024-03-05T07:55:03.075Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:55:03.075Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:55:03.151Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:55:04.353Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:55:04.353Z - [REQUEST]: src/app/pages/submission/submission.module.ts
+[NX Daemon Server] - 2024-03-05T07:55:04.353Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:55:04.442Z - Time taken for 'hash changed files from watcher' 0.21039999974891543ms
+[NX Daemon Server] - 2024-03-05T07:55:09.482Z - Time taken for 'build-project-configs' 36.296099999919534ms
+[NX Daemon Server] - 2024-03-05T07:55:09.623Z - Time taken for 'total execution time for createProjectGraph()' 145.47039999999106ms
+[NX Daemon Server] - 2024-03-05T07:55:21.749Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:55:21.752Z - [WATCHER]: src/app/pages/submission/submission.module.ts was modified
+[NX Daemon Server] - 2024-03-05T07:55:21.753Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:55:21.754Z - Time taken for 'changed-projects' 0.13529999973252416ms
+[NX Daemon Server] - 2024-03-05T07:55:21.754Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:55:21.754Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:55:22.035Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:55:28.157Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:55:28.157Z - [REQUEST]: src/app/pages/submission/submission.module.ts
+[NX Daemon Server] - 2024-03-05T07:55:28.157Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:55:28.271Z - Time taken for 'hash changed files from watcher' 0.582799999974668ms
+[NX Daemon Server] - 2024-03-05T07:55:32.696Z - Time taken for 'build-project-configs' 37.050800000317395ms
+[NX Daemon Server] - 2024-03-05T07:55:32.788Z - Time taken for 'total execution time for createProjectGraph()' 96.73609999986365ms
+[NX Daemon Server] - 2024-03-05T07:55:43.042Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:55:43.076Z - [WATCHER]: src/app/app.routes.ts was modified
+[NX Daemon Server] - 2024-03-05T07:55:43.078Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:55:43.079Z - Time taken for 'changed-projects' 0.5118999998085201ms
+[NX Daemon Server] - 2024-03-05T07:55:43.079Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:55:43.080Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-03-05T07:55:43.295Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:55:43.901Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:55:49.489Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:55:49.489Z - [REQUEST]: src/app/app.routes.ts
+[NX Daemon Server] - 2024-03-05T07:55:49.489Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:55:49.547Z - Time taken for 'hash changed files from watcher' 0.5968999997712672ms
+[NX Daemon Server] - 2024-03-05T07:55:52.953Z - Time taken for 'build-project-configs' 19.289800000377ms
+[NX Daemon Server] - 2024-03-05T07:55:53.016Z - Time taken for 'total execution time for createProjectGraph()' 64.44119999976829ms
+[NX Daemon Server] - 2024-03-05T07:56:22.187Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:56:22.206Z - [WATCHER]: src/app/pages/submission/submission.module.ts was modified
+[NX Daemon Server] - 2024-03-05T07:56:22.207Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:56:22.207Z - Time taken for 'changed-projects' 0.08210000023245811ms
+[NX Daemon Server] - 2024-03-05T07:56:22.208Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:56:22.208Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:56:22.814Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:56:28.612Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:56:28.612Z - [REQUEST]: src/app/pages/submission/submission.module.ts
+[NX Daemon Server] - 2024-03-05T07:56:28.612Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:56:28.717Z - Time taken for 'hash changed files from watcher' 0.32279999973252416ms
+[NX Daemon Server] - 2024-03-05T07:56:34.364Z - Time taken for 'build-project-configs' 37.96270000003278ms
+[NX Daemon Server] - 2024-03-05T07:56:34.503Z - Time taken for 'total execution time for createProjectGraph()' 144.50909999990836ms
+[NX Daemon Server] - 2024-03-05T07:57:29.967Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T07:57:29.968Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:57:29.969Z - Time taken for 'changed-projects' 0.20770000014454126ms
+[NX Daemon Server] - 2024-03-05T07:57:29.969Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:57:29.969Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:57:29.969Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:57:30.105Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:57:36.368Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:57:36.369Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T07:57:36.369Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:57:36.440Z - Time taken for 'hash changed files from watcher' 0.48070000018924475ms
+[NX Daemon Server] - 2024-03-05T07:57:40.265Z - Time taken for 'build-project-configs' 21.28649999992922ms
+[NX Daemon Server] - 2024-03-05T07:57:40.335Z - Time taken for 'total execution time for createProjectGraph()' 71.12040000036359ms
+[NX Daemon Server] - 2024-03-05T07:57:56.344Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:57:56.346Z - [WATCHER]: src/app/app.routes.ts was modified
+[NX Daemon Server] - 2024-03-05T07:57:56.346Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:57:56.346Z - Time taken for 'changed-projects' 0.05470000021159649ms
+[NX Daemon Server] - 2024-03-05T07:57:56.346Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:57:56.346Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:57:56.439Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:57:56.911Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:58:02.749Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:58:02.749Z - [REQUEST]: src/app/app.routes.ts
+[NX Daemon Server] - 2024-03-05T07:58:02.749Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:58:02.844Z - Time taken for 'hash changed files from watcher' 0.5150999999605119ms
+[NX Daemon Server] - 2024-03-05T07:58:07.034Z - Time taken for 'build-project-configs' 23.245499999728054ms
+[NX Daemon Server] - 2024-03-05T07:58:07.124Z - Time taken for 'total execution time for createProjectGraph()' 89.33130000019446ms
+[NX Daemon Server] - 2024-03-05T07:58:11.679Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T07:58:11.680Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:58:11.680Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:58:11.681Z - Time taken for 'changed-projects' 0.08330000005662441ms
+[NX Daemon Server] - 2024-03-05T07:58:11.681Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:58:11.681Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:58:11.887Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:58:18.085Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:58:18.086Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T07:58:18.086Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:58:18.155Z - Time taken for 'hash changed files from watcher' 0.30080000031739473ms
+[NX Daemon Server] - 2024-03-05T07:58:22.118Z - Time taken for 'build-project-configs' 27.199599999934435ms
+[NX Daemon Server] - 2024-03-05T07:58:22.207Z - Time taken for 'total execution time for createProjectGraph()' 91.44709999999031ms
+[NX Daemon Server] - 2024-03-05T07:58:41.495Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:58:41.498Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T07:58:41.499Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:58:41.500Z - Time taken for 'changed-projects' 0.15500000026077032ms
+[NX Daemon Server] - 2024-03-05T07:58:41.500Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:58:41.500Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:58:41.663Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:58:42.152Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:58:47.913Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:58:47.913Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T07:58:47.913Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:58:48.029Z - Time taken for 'hash changed files from watcher' 0.46510000014677644ms
+[NX Daemon Server] - 2024-03-05T07:58:51.323Z - Time taken for 'build-project-configs' 31.740400000009686ms
+[NX Daemon Server] - 2024-03-05T07:58:51.405Z - Time taken for 'total execution time for createProjectGraph()' 87.10839999979362ms
+[NX Daemon Server] - 2024-03-05T07:59:17.017Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T07:59:17.018Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:59:17.018Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:59:17.019Z - Time taken for 'changed-projects' 0.10050000017508864ms
+[NX Daemon Server] - 2024-03-05T07:59:17.019Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:59:17.019Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T07:59:17.167Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:59:17.698Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:59:23.423Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T07:59:23.423Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T07:59:23.423Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T07:59:23.510Z - Time taken for 'hash changed files from watcher' 0.28179999999701977ms
+[NX Daemon Server] - 2024-03-05T07:59:27.522Z - Time taken for 'build-project-configs' 24.345900000073016ms
+[NX Daemon Server] - 2024-03-05T07:59:27.612Z - Time taken for 'total execution time for createProjectGraph()' 93.65849999990314ms
+[NX Daemon Server] - 2024-03-05T07:59:55.160Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:59:55.162Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T07:59:55.162Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T07:59:55.162Z - Time taken for 'changed-projects' 0.04029999999329448ms
+[NX Daemon Server] - 2024-03-05T07:59:55.162Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T07:59:55.162Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T07:59:55.240Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T07:59:55.667Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:00:01.570Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:00:01.571Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T08:00:01.571Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:00:01.643Z - Time taken for 'hash changed files from watcher' 0.3119999999180436ms
+[NX Daemon Server] - 2024-03-05T08:00:06.584Z - Time taken for 'build-project-configs' 31.46890000021085ms
+[NX Daemon Server] - 2024-03-05T08:00:06.689Z - Time taken for 'total execution time for createProjectGraph()' 109.55939999967813ms
+[NX Daemon Server] - 2024-03-05T08:01:26.600Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:01:26.602Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T08:01:26.602Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T08:01:26.602Z - Time taken for 'changed-projects' 0.06259999983012676ms
+[NX Daemon Server] - 2024-03-05T08:01:26.602Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T08:01:26.602Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T08:01:26.696Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:01:27.122Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:01:33.013Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:01:33.013Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T08:01:33.013Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:01:33.067Z - Time taken for 'hash changed files from watcher' 0.39079999970272183ms
+[NX Daemon Server] - 2024-03-05T08:01:36.804Z - Time taken for 'build-project-configs' 25.675700000021607ms
+[NX Daemon Server] - 2024-03-05T08:01:36.898Z - Time taken for 'total execution time for createProjectGraph()' 95.31190000008792ms
+[NX Daemon Server] - 2024-03-05T08:01:41.945Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:01:41.949Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T08:01:41.950Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T08:01:41.950Z - Time taken for 'changed-projects' 0.05330000026151538ms
+[NX Daemon Server] - 2024-03-05T08:01:41.950Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T08:01:41.950Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T08:01:42.054Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:01:42.497Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:01:48.400Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:01:48.400Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T08:01:48.400Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:01:48.938Z - Time taken for 'hash changed files from watcher' 0.8031999999657273ms
+[NX Daemon Server] - 2024-03-05T08:01:49.316Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T08:01:49.317Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T08:01:49.317Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:01:49.317Z - Time taken for 'changed-projects' 0.0864000003784895ms
+[NX Daemon Server] - 2024-03-05T08:01:49.318Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T08:01:49.318Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T08:01:49.450Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:01:50.001Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:01:54.549Z - Time taken for 'build-project-configs' 39.032699999865144ms
+[NX Daemon Server] - 2024-03-05T08:01:54.712Z - Time taken for 'total execution time for createProjectGraph()' 168.0710999998264ms
+[NX Daemon Server] - 2024-03-05T08:01:55.719Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:01:55.719Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:01:55.719Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:01:55.810Z - Time taken for 'hash changed files from watcher' 0.2525999997742474ms
+[NX Daemon Server] - 2024-03-05T08:01:59.552Z - Time taken for 'build-project-configs' 18.9714999999851ms
+[NX Daemon Server] - 2024-03-05T08:01:59.601Z - Time taken for 'total execution time for createProjectGraph()' 49.59749999968335ms
+[NX Daemon Server] - 2024-03-05T08:02:10.713Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T08:02:10.713Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T08:02:10.713Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:02:10.713Z - Time taken for 'changed-projects' 0.04640000034123659ms
+[NX Daemon Server] - 2024-03-05T08:02:10.713Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T08:02:10.713Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T08:02:10.789Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:02:11.334Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:02:17.118Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:02:17.118Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T08:02:17.118Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:02:17.184Z - Time taken for 'hash changed files from watcher' 0.2836000001989305ms
+[NX Daemon Server] - 2024-03-05T08:02:20.511Z - Time taken for 'build-project-configs' 38.44879999989644ms
+[NX Daemon Server] - 2024-03-05T08:02:20.609Z - Time taken for 'total execution time for createProjectGraph()' 103.60770000005141ms
+[NX Daemon Server] - 2024-03-05T08:03:55.311Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:03:55.314Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T08:03:55.314Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T08:03:55.314Z - Time taken for 'changed-projects' 0.11820000037550926ms
+[NX Daemon Server] - 2024-03-05T08:03:55.314Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T08:03:55.315Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T08:03:55.425Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:03:55.820Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:04:01.715Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:04:01.715Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T08:04:01.715Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:04:01.796Z - Time taken for 'hash changed files from watcher' 0.37280000001192093ms
+[NX Daemon Server] - 2024-03-05T08:04:06.498Z - Time taken for 'build-project-configs' 36.57990000024438ms
+[NX Daemon Server] - 2024-03-05T08:04:06.604Z - Time taken for 'total execution time for createProjectGraph()' 111.38460000045598ms
+[NX Daemon Server] - 2024-03-05T08:04:23.283Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T08:04:23.284Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T08:04:23.284Z - Time taken for 'changed-projects' 0.05030000023543835ms
+[NX Daemon Server] - 2024-03-05T08:04:23.285Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:04:23.285Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T08:04:23.285Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T08:04:23.863Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:04:29.688Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:04:29.688Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T08:04:29.688Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:04:29.801Z - Time taken for 'hash changed files from watcher' 0.3614999996498227ms
+[NX Daemon Server] - 2024-03-05T08:04:34.212Z - Time taken for 'build-project-configs' 25.600499999709427ms
+[NX Daemon Server] - 2024-03-05T08:04:34.289Z - Time taken for 'total execution time for createProjectGraph()' 77.6304999999702ms
+[NX Daemon Server] - 2024-03-05T08:04:50.416Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T08:04:50.417Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T08:04:50.418Z - Time taken for 'changed-projects' 0.08609999995678663ms
+[NX Daemon Server] - 2024-03-05T08:04:50.418Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T08:04:50.418Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2024-03-05T08:04:50.421Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:04:50.664Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:04:51.446Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:04:57.016Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:04:57.016Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T08:04:57.016Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:04:57.100Z - Time taken for 'hash changed files from watcher' 0.48730000015348196ms
+[NX Daemon Server] - 2024-03-05T08:05:00.857Z - Time taken for 'build-project-configs' 25.923899999819696ms
+[NX Daemon Server] - 2024-03-05T08:05:00.932Z - Time taken for 'total execution time for createProjectGraph()' 77.76289999950677ms
+[NX Daemon Server] - 2024-03-05T08:05:15.933Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:05:15.934Z - [WATCHER]: src/app/app.component.spec.ts was deleted
+[NX Daemon Server] - 2024-03-05T08:05:15.935Z - [REQUEST]: Responding to the client. File watch changed
+[NX Daemon Server] - 2024-03-05T08:05:15.935Z - Time taken for 'changed-projects' 0.2989999996498227ms
+[NX Daemon Server] - 2024-03-05T08:05:15.935Z - Done responding to the client File watch changed
+[NX Daemon Server] - 2024-03-05T08:05:15.935Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-03-05T08:05:22.341Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:05:22.341Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:05:22.341Z - [REQUEST]: src/app/app.component.spec.ts
+[NX Daemon Server] - 2024-03-05T08:05:22.398Z - Time taken for 'hash changed files from watcher' 0.13179999962449074ms
+[NX Daemon Server] - 2024-03-05T08:05:26.063Z - Time taken for 'build-project-configs' 22.40870000049472ms
+[NX Daemon Server] - 2024-03-05T08:05:26.142Z - Time taken for 'total execution time for createProjectGraph()' 81.14950000029057ms
+[NX Daemon Server] - 2024-03-05T08:05:37.081Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:05:56.216Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:06:00.105Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-03-05T08:06:00.106Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-03-05T08:06:51.877Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T08:06:51.878Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:06:53.278Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:06:58.296Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:06:58.297Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T08:06:58.297Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:06:58.360Z - Time taken for 'hash changed files from watcher' 4.495600000023842ms
+[NX Daemon Server] - 2024-03-05T08:07:01.393Z - Time taken for 'build-project-configs' 24.97190000023693ms
+[NX Daemon Server] - 2024-03-05T08:07:01.442Z - Time taken for 'total execution time for createProjectGraph()' 50.20359999965876ms
+[NX Daemon Server] - 2024-03-05T08:07:33.221Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:07:33.224Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T08:07:33.441Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:07:39.382Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T08:07:39.382Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:07:39.492Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:07:39.635Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:07:39.636Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T08:07:39.636Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:07:39.694Z - Time taken for 'hash changed files from watcher' 3.576799999922514ms
+[NX Daemon Server] - 2024-03-05T08:07:42.663Z - Time taken for 'build-project-configs' 23.590099999681115ms
+[NX Daemon Server] - 2024-03-05T08:07:42.720Z - Time taken for 'total execution time for createProjectGraph()' 62.35010000038892ms
+[NX Daemon Server] - 2024-03-05T08:07:46.398Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:08:10.859Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:09:25.126Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T08:09:25.127Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:09:25.243Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:09:26.002Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:09:31.534Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:09:31.535Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T08:09:31.535Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:09:31.606Z - Time taken for 'hash changed files from watcher' 0.4506999999284744ms
+[NX Daemon Server] - 2024-03-05T08:09:34.255Z - Time taken for 'build-project-configs' 28.323499999940395ms
+[NX Daemon Server] - 2024-03-05T08:09:34.318Z - Time taken for 'total execution time for createProjectGraph()' 65.52080000005662ms
+[NX Daemon Server] - 2024-03-05T08:10:37.753Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-05T08:10:37.754Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:10:37.865Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:10:37.865Z - [REQUEST]: src/app/shared/components/page-header/page-header.component.ts,src/app/shared/components/page-header/page-header.component.scss,src/app/shared/components/page-header/page-header.component.html
+[NX Daemon Server] - 2024-03-05T08:10:37.865Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:10:37.915Z - Time taken for 'hash changed files from watcher' 2.7470000004395843ms
+[NX Daemon Server] - 2024-03-05T08:10:41.128Z - Time taken for 'build-project-configs' 46.22360000014305ms
+[NX Daemon Server] - 2024-03-05T08:10:41.188Z - Time taken for 'total execution time for createProjectGraph()' 64.15660000033677ms
+[NX Daemon Server] - 2024-03-05T08:10:47.159Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:10:47.162Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-05T08:10:47.383Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:10:47.383Z - [REQUEST]: src/app/shared/components/page-header/page-header.component.html,src/app/shared/components/page-header/page-header.component.ts
+[NX Daemon Server] - 2024-03-05T08:10:47.383Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:10:47.517Z - Time taken for 'hash changed files from watcher' 8.735399999655783ms
+[NX Daemon Server] - 2024-03-05T08:10:48.022Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:10:51.296Z - Time taken for 'build-project-configs' 25.11780000012368ms
+[NX Daemon Server] - 2024-03-05T08:10:51.351Z - Time taken for 'total execution time for createProjectGraph()' 69.60060000047088ms
+[NX Daemon Server] - 2024-03-05T08:11:14.380Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:11:14.381Z - [WATCHER]: src/app/shared/components/page-header/page-header.component.ts was modified
+[NX Daemon Server] - 2024-03-05T08:11:14.795Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:11:14.795Z - [REQUEST]: src/app/shared/components/page-header/page-header.component.ts
+[NX Daemon Server] - 2024-03-05T08:11:14.795Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:11:14.877Z - Time taken for 'hash changed files from watcher' 3.112300000153482ms
+[NX Daemon Server] - 2024-03-05T08:11:18.146Z - Time taken for 'build-project-configs' 30.296500000171363ms
+[NX Daemon Server] - 2024-03-05T08:11:18.198Z - Time taken for 'total execution time for createProjectGraph()' 56.98159999959171ms
+[NX Daemon Server] - 2024-03-05T08:13:21.793Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:13:21.795Z - [WATCHER]: 0 file(s) created or restored, 4 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-05T08:13:21.933Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:13:22.604Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:13:22.605Z - [REQUEST]: src/app/pages/form/builder/builder.component.ts,src/app/shared/components/page-header/page-header.component.html,src/app/pages/form/builder/builder.component.html,src/app/shared/components/page-header/page-header.component.ts
+[NX Daemon Server] - 2024-03-05T08:13:22.605Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:13:22.684Z - Time taken for 'hash changed files from watcher' 3.557400000281632ms
+[NX Daemon Server] - 2024-03-05T08:13:22.933Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:13:28.459Z - Time taken for 'build-project-configs' 43.85700000077486ms
+[NX Daemon Server] - 2024-03-05T08:13:28.582Z - Time taken for 'total execution time for createProjectGraph()' 133.05200000014156ms
+[NX Daemon Server] - 2024-03-05T08:14:19.387Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-05T08:14:19.389Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:14:19.525Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:14:20.388Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:14:20.994Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:14:20.995Z - [REQUEST]: src/app/pages/form/list/list.component.html,src/app/pages/form/list/list.component.ts
+[NX Daemon Server] - 2024-03-05T08:14:20.995Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:14:21.181Z - Time taken for 'hash changed files from watcher' 0.7066000001505017ms
+[NX Daemon Server] - 2024-03-05T08:14:26.514Z - Time taken for 'build-project-configs' 21.66440000012517ms
+[NX Daemon Server] - 2024-03-05T08:14:26.561Z - Time taken for 'total execution time for createProjectGraph()' 47.090499999932945ms
+[NX Daemon Server] - 2024-03-05T08:15:11.858Z - [WATCHER]: src/app/app.component.html was modified
+[NX Daemon Server] - 2024-03-05T08:15:11.859Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:15:11.952Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:15:12.759Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:15:15.062Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:15:15.062Z - [REQUEST]: src/app/app.component.html
+[NX Daemon Server] - 2024-03-05T08:15:15.062Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:15:15.153Z - Time taken for 'hash changed files from watcher' 0.49080000072717667ms
+[NX Daemon Server] - 2024-03-05T08:15:18.134Z - Time taken for 'build-project-configs' 22.66940000001341ms
+[NX Daemon Server] - 2024-03-05T08:15:18.190Z - Time taken for 'total execution time for createProjectGraph()' 56.95230000000447ms
+[NX Daemon Server] - 2024-03-05T08:16:13.643Z - [WATCHER]: src/app/pages/submission/submission-routing.module.ts was modified
+[NX Daemon Server] - 2024-03-05T08:16:13.644Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:16:13.720Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:16:14.414Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:16:20.050Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:16:20.050Z - [REQUEST]: src/app/pages/submission/submission-routing.module.ts
+[NX Daemon Server] - 2024-03-05T08:16:20.050Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:16:20.102Z - Time taken for 'hash changed files from watcher' 0.2599999997764826ms
+[NX Daemon Server] - 2024-03-05T08:16:22.973Z - Time taken for 'build-project-configs' 24.47580000013113ms
+[NX Daemon Server] - 2024-03-05T08:16:23.032Z - Time taken for 'total execution time for createProjectGraph()' 63.72660000063479ms
+[NX Daemon Server] - 2024-03-05T08:16:44.516Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:16:44.518Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-03-05T08:16:44.630Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:16:44.630Z - [REQUEST]: src/app/pages/action/action.component.ts,src/app/pages/action/action.component.html,src/app/pages/action/action.component.scss
+[NX Daemon Server] - 2024-03-05T08:16:44.630Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:16:44.713Z - Time taken for 'hash changed files from watcher' 4.083499999716878ms
+[NX Daemon Server] - 2024-03-05T08:16:48.401Z - Time taken for 'build-project-configs' 29.7367000002414ms
+[NX Daemon Server] - 2024-03-05T08:16:48.452Z - Time taken for 'total execution time for createProjectGraph()' 56.377000000327826ms
+[NX Daemon Server] - 2024-03-05T08:17:12.563Z - [WATCHER]: src/app/app.routes.ts was modified
+[NX Daemon Server] - 2024-03-05T08:17:12.564Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:17:12.763Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:17:12.766Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:17:12.767Z - [REQUEST]: src/app/app.routes.ts
+[NX Daemon Server] - 2024-03-05T08:17:12.767Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:17:12.835Z - Time taken for 'hash changed files from watcher' 3.0772000001743436ms
+[NX Daemon Server] - 2024-03-05T08:17:13.422Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:17:18.500Z - Time taken for 'build-project-configs' 40.6929999999702ms
+[NX Daemon Server] - 2024-03-05T08:17:18.611Z - Time taken for 'total execution time for createProjectGraph()' 117.26809999998659ms
+[NX Daemon Server] - 2024-03-05T08:17:25.807Z - [WATCHER]: src/app/app.routes.ts was modified
+[NX Daemon Server] - 2024-03-05T08:17:25.808Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:17:25.870Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:17:26.216Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-03-05T08:17:26.216Z - [REQUEST]: src/app/app.routes.ts
+[NX Daemon Server] - 2024-03-05T08:17:26.216Z - [REQUEST]: 
+[NX Daemon Server] - 2024-03-05T08:17:26.296Z - Time taken for 'hash changed files from watcher' 0.32200000062584877ms
+[NX Daemon Server] - 2024-03-05T08:17:26.372Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-03-05T08:17:30.524Z - Time taken for 'build-project-configs' 23.913499999791384ms
+[NX Daemon Server] - 2024-03-05T08:17:30.578Z - Time taken for 'total execution time for createProjectGraph()' 58.61770000029355ms
