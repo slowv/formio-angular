@@ -1,9 +1,9 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {RouterModule} from '@angular/router';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import { NzAffixModule } from 'ng-zorro-antd/affix';
-import { IconsProviderModule } from '../icons-provider.module';
+import {NzAffixModule} from 'ng-zorro-antd/affix';
+import {IconsProviderModule} from '../icons-provider.module';
 import {NzAnchorModule} from "ng-zorro-antd/anchor";
 import {NzAlertModule} from "ng-zorro-antd/alert";
 import {NzAutocompleteModule} from "ng-zorro-antd/auto-complete";
@@ -50,7 +50,7 @@ import {NzResultModule} from "ng-zorro-antd/result";
 import {NzSelectModule} from "ng-zorro-antd/select";
 import {NzSkeletonModule} from "ng-zorro-antd/skeleton";
 import {NzSliderModule} from "ng-zorro-antd/slider";
-import {NzSpinModule} from "ng-zorro-antd/spin";
+import {NzSpinComponent, NzSpinModule} from "ng-zorro-antd/spin";
 import {NzStatisticModule} from "ng-zorro-antd/statistic";
 import {NzStepsModule} from "ng-zorro-antd/steps";
 import {NzSwitchModule} from "ng-zorro-antd/switch";
@@ -69,7 +69,6 @@ import {NzUploadModule} from "ng-zorro-antd/upload";
 import {NzWaveModule} from "ng-zorro-antd/core/wave";
 import {NzResizableModule} from "ng-zorro-antd/resizable";
 import {NzPipesModule} from "ng-zorro-antd/pipes";
-import {SpinnerComponent} from "./components/spinner/spinner.component";
 
 
 @NgModule({
@@ -147,11 +146,11 @@ import {SpinnerComponent} from "./components/spinner/spinner.component";
     NzWaveModule,
     NzResizableModule,
     NzPipesModule,
-    SpinnerComponent,
+    NzSpinComponent
     // ng-zorro-antd
   ],
   exports: [
-    SpinnerComponent,
+    NzSpinComponent,
     IconsProviderModule,
     NzAffixModule,
     NzAlertModule,

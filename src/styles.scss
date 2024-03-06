@@ -11,14 +11,16 @@
 
 .main-content {
   padding: 20px;
+  padding-top: 0px;
   margin-left: 1px;
   width: 100%;
 }
 
 
 .inner-layout {
-  min-height: calc(100vh - 104px);
+  min-height: calc(100vh - 138px);
   padding: 20px;
+  padding-top: 0px;
   background: #fff;
 }
 

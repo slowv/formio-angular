@@ -1,1 +1,14 @@
-<p>add-submission works!</p>
+<div class="add-submission-component">
+  <app-page-header
+    title="Add submission"
+    subTitle="Add submission form"
+  />
+  <div nz-row>
+    <div nz-col nzSpan="12">
+      <h5 nz-typography>Choose form template</h5>
+      <nz-select nzPlaceHolder="Form template" [(ngModel)]="formTemplateOption">
+        <nz-option *ngFor="let option of formOfOption" [nzLabel]="option.label" [nzValue]="option.value"></nz-option>
+      </nz-select>
+    </div>
+  </div>
+</div>

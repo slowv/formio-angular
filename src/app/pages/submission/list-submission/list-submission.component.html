@@ -1,1 +1,44 @@
-<p>list-submission works!</p>
+<div class="list-submission-component">
+  <app-page-header
+  [title]="'Submissions'"
+  subTitle="List submission"
+  ></app-page-header>
+
+  <nz-table
+    #basicTable
+    [nzTotal]="submissions.paging.totalRecord"
+    [nzPageIndex]="submissions.paging.pageNumber"
+    [nzPageSize]="submissions.paging.pageSize"
+    [nzData]="submissions.contents">
+    <thead>
+    <tr>
+      <th>Id</th>
+      <th>Form</th>
+      <th>Created date</th>
+      <th>Last modified</th>
+      <th>Created by</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let data of basicTable.data">
+      <td>{{ data.id }}</td>
+      <td>{{ data.formName }}</td>
+      <td>{{ data.createdDate | date:"dd/MM/yyyy HH:mm:ss" }}</td>
+      <td>{{ data.lastModifiedDate | date:"dd/MM/yyyy HH:mm:ss" }}</td>
+      <td>{{ data.createdBy }}</td>
+      <td>
+        <button nz-button nzType="primary" nzShape="circle" title="Show data" (click)="showSubmissionData(data.id)">
+          <span nz-icon nzType="eye"></span>
+        </button>
+      </td>
+    </tr>
+    </tbody>
+  </nz-table>
+
+  <nz-modal [(nzVisible)]="showModal" nzTitle="Submission Data" (nzOnCancel)="handleCancel()" (nzOnOk)="handleCancel()">
+    <ng-container *nzModalContent>
+      <pre [innerHTML]="submissionData | json"></pre>
+    </ng-container>
+  </nz-modal>
+</div>

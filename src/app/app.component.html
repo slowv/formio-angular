@@ -5,8 +5,6 @@
     </nz-header>
     <nz-layout class="main">
       <nz-sider nzWidth="250px" nzTheme="light">
-
-
         <ul nz-menu [nzMode]="'inline'" nzTheme="light" class="sider-menu">
           <li nz-submenu nzTitle="Form Builder" nzIcon="setting">
             <ul>
@@ -67,11 +65,17 @@
       </nz-sider>
 
       <div class="main-content">
+        <nz-breadcrumb style="margin:16px 0;">
+          <nz-breadcrumb-item>Home</nz-breadcrumb-item>
+          <nz-breadcrumb-item>List</nz-breadcrumb-item>
+          <nz-breadcrumb-item>App</nz-breadcrumb-item>
+        </nz-breadcrumb>
         <div class="inner-layout">
           <router-outlet></router-outlet>
         </div>
       </div>
     </nz-layout>
   </nz-layout>
-
 </div>
+
+<app-spinner></app-spinner>

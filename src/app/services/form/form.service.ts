@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {HTTP} from "../http";
 import {HttpClient} from "@angular/common/http";
 import {FormDto} from "../../model/FormDto";
@@ -7,7 +7,7 @@ import {Observable} from "rxjs";
 @Injectable({
   providedIn: 'root'
 })
-export class FormService extends HTTP{
+export class FormService extends HTTP {
 
   constructor(protected override http: HttpClient) {
     super(http);
