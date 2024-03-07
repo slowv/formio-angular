@@ -1,5 +1,10 @@
-<nz-page-header
-  class="site-page-header"
-  [nzTitle]="title"
-  [nzSubtitle]="subTitle"
-></nz-page-header>
+<div class="page-header-component">
+  <nz-page-header
+    class="site-page-header"
+    [nzTitle]="title"
+    [nzSubtitle]="subTitle"
+  ></nz-page-header>
+  <button nz-button nzType="primary" (click)="onClick()">
+    {{btnTitle}}
+  </button>
+</div>

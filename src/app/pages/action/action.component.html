@@ -1,1 +1,31 @@
-<p>action works!</p>
+<div>
+  <app-page-header title="Action" subTitle="List all action"></app-page-header>
+
+  <nz-table
+    #basicTable
+    [nzTotal]="actions.paging.totalRecord"
+    [nzPageIndex]="actions.paging.pageNumber"
+    [nzPageSize]="actions.paging.pageSize"
+    [nzData]="actions.contents">
+    <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Priority</th>
+      <th>Created date</th>
+      <th>Last modified</th>
+      <th>Created by</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let data of basicTable.data">
+      <td>{{ data.id }}</td>
+      <td>{{ data.name }}</td>
+      <td>{{ data.priority }}</td>
+      <td>{{ data.createdDate | date:"dd/MM/yyyy HH:mm:ss" }}</td>
+      <td>{{ data.lastModifiedDate | date:"dd/MM/yyyy HH:mm:ss" }}</td>
+      <td>{{ data.createdBy }}</td>
+    </tr>
+    </tbody>
+  </nz-table>
+</div>

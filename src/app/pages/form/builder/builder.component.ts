@@ -8,6 +8,7 @@ import {FormService} from "../../../services/form/form.service";
 import {ShareModule} from "../../../shared/share.module";
 import {ActivatedRoute, Router} from "@angular/router";
 import {PageHeaderComponent} from "../../../shared/components/page-header/page-header.component";
+import {NzMessageService} from "ng-zorro-antd/message";
 
 @Component({
   selector: 'app-builder',
@@ -38,7 +39,8 @@ export class BuilderComponent implements OnInit {
     private titleService: Title,
     private formService: FormService,
     private activatedRoute: ActivatedRoute,
-    private router: Router
+    private router: Router,
+    private message: NzMessageService
   ) {
     this.titleService.setTitle("Create form");
   }
@@ -64,9 +66,15 @@ export class BuilderComponent implements OnInit {
 
   saveForm(): void {
     if (this.formId) {
-      this.formService.updateForm(this.formId, this.form).subscribe(res => this.form = res);
+      this.formService.updateForm(this.formId, this.form).subscribe(res => {
+        this.form = res
+        this.message.success('Update form successfully!')
+      });
     } else {
-      this.formService.saveForm(this.form).subscribe(res => this.form = res);
+      this.formService.saveForm(this.form).subscribe(res => {
+        this.form = res
+        this.message.success('Create form successfully!')
+      });
     }
 
   }

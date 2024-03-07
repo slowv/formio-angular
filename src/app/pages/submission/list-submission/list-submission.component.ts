@@ -5,6 +5,9 @@ import {PageHeaderComponent} from "../../../shared/components/page-header/page-h
 import {ShareModule} from "../../../shared/share.module";
 import {DatePipe, JsonPipe, NgForOf} from "@angular/common";
 import {PagingResponse} from "../../../model/PagingResponse";
+import {setBreadcrumbs} from "../../../store/action/config.action";
+import {Store} from "@ngrx/store";
+import {AppState} from "../../../store/appState";
 
 @Component({
   selector: 'app-list-submission',
@@ -28,10 +31,27 @@ export class ListSubmissionComponent implements OnInit {
   submissionData = '';
   showModal = false;
 
-  constructor(private submissionService: SubmissionService) {
+  constructor(
+    private submissionService: SubmissionService,
+    private store: Store<AppState>
+  ) {
   }
 
   ngOnInit(): void {
+    this.store.dispatch(
+      setBreadcrumbs({
+          breadcrumbs: [
+            {
+              label: 'Submissions',
+              url: '/submissions'
+            },
+            {
+              label: 'List',
+            }
+          ]
+        }
+      )
+    );
     this.getAll();
   }
 

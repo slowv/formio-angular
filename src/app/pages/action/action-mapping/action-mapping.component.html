@@ -1,0 +1,20 @@
+<div class="action-mapping-component">
+  <app-page-header
+  [title]="'Mapping'"
+  [subTitle]="'Mapping form to actions'"
+  [enableButton]="true"
+  [onClick]="onEditMapping"
+  [btnTitle]="'Edit'"
+  ></app-page-header>
+
+  <div nz-row [hidden]="!isEditMapping">
+    <div nz-col nzSpan="6">
+      <h5 nz-typography>Choose form</h5>
+      <nz-select nzShowSearch nzAllowClear nzPlaceHolder="Select a form" [(ngModel)]="selectedValue">
+        <nz-option *ngFor="let form of forms" [nzLabel]="form.name" [nzValue]="form"></nz-option>
+      </nz-select>
+    </div>
+  </div>
+
+  <div [hidden]="isEditMapping">SLowV no edit</div>
+</div>

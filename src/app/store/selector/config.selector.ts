@@ -11,5 +11,5 @@ export const getConfig = createSelector(
 
 export const getBreadcrumd = createSelector(
   (state: AppState) => state.config,
-  (state: IConfigState) => state
+  (state: IConfigState) => state.breadcrumbs
 );

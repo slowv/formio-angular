@@ -4,11 +4,20 @@
     subTitle="Add submission form"
   />
   <div nz-row>
-    <div nz-col nzSpan="12">
+    <div nz-col nzSpan="24">
       <h5 nz-typography>Choose form template</h5>
-      <nz-select nzPlaceHolder="Form template" [(ngModel)]="formTemplateOption">
-        <nz-option *ngFor="let option of formOfOption" [nzLabel]="option.label" [nzValue]="option.value"></nz-option>
+      <nz-select nzPlaceHolder="Form template" [(ngModel)]="formTarget">
+        <nz-option *ngFor="let form of formTemplates" [nzLabel]="form.name" [nzValue]="form"></nz-option>
       </nz-select>
+    </div>
+    <div nz-col nzSpan="24" class="mt-20">
+      <ng-container *ngIf="formTarget">
+        <div class="form-data">
+          <div class="title">{{formTarget.name}} <small>(Add data)</small></div>
+          <formio [form]="formTarget" (change)="onChangeForm($event)"></formio>
+          <button nz-button nzType="primary" (click)="submitData()">Submit</button>
+        </div>
+      </ng-container>
     </div>
   </div>
 </div>
