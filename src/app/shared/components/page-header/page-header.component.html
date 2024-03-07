@@ -4,7 +4,9 @@
     [nzTitle]="title"
     [nzSubtitle]="subTitle"
   ></nz-page-header>
-  <button nz-button nzType="primary" (click)="onClick()">
-    {{btnTitle}}
-  </button>
+  <ng-container *ngIf="enableButton">
+    <button nz-button nzType="primary" (click)="onClick()">
+      {{btnTitle}}
+    </button>
+  </ng-container>
 </div>

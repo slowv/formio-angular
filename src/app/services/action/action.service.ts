@@ -22,4 +22,8 @@ export class ActionService extends HTTP {
   getAllFromAction(): Observable<FormActionDto[]> {
     return this.get("actions/form-action-all");
   }
+
+  saveMapping(formActions: FormActionDto[]) {
+    return this.post("actions/save/form-action");
+  }
 }

@@ -2,6 +2,7 @@ import {Component, Input} from '@angular/core';
 import {NzPageHeaderComponent} from "ng-zorro-antd/page-header";
 import {NzButtonComponent} from "ng-zorro-antd/button";
 import {NzIconDirective} from "ng-zorro-antd/icon";
+import {NgIf} from "@angular/common";
 
 @Component({
   selector: 'app-page-header',
@@ -9,7 +10,8 @@ import {NzIconDirective} from "ng-zorro-antd/icon";
   imports: [
     NzPageHeaderComponent,
     NzButtonComponent,
-    NzIconDirective
+    NzIconDirective,
+    NgIf
   ],
   templateUrl: './page-header.component.html',
   styleUrl: './page-header.component.scss'
