@@ -23,7 +23,7 @@ export class ActionService extends HTTP {
     return this.get("actions/form-action-all");
   }
 
-  saveMapping(formActions: FormActionDto[]) {
-    return this.post("actions/save/form-action");
+  saveMapping(formActions: {formId: string, actionId: string}[]) {
+    return this.post("actions/map-action", formActions);
   }
 }

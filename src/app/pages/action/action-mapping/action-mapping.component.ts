@@ -96,6 +96,12 @@ export class ActionMappingComponent implements OnInit, AfterViewInit {
   }
 
   saveMapping() {
-    this.actionService.saveMapping(this.formActions);
+    const request: { formId: string, actionId: string }[] = [];
+    this.formActions.map(formAction => {
+      formAction.actions.forEach(action => request.push({formId: formAction.form.id, actionId: action.id || ''}))
+    })
+    this.actionService.saveMapping(request).subscribe(res => {
+      console.log(res)
+    });
   }
 }
