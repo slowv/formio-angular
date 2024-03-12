@@ -84,7 +84,6 @@ export class ActionMappingComponent implements OnInit, AfterViewInit {
         actions: this.actions,
         form: {
           name: '',
-          id: '',
           components: [],
           title: '',
           tags: [],
@@ -97,9 +96,11 @@ export class ActionMappingComponent implements OnInit, AfterViewInit {
 
   saveMapping() {
     const request: { formId: string, actionId: string }[] = [];
-    this.formActions.map(formAction => {
-      formAction.actions.forEach(action => request.push({formId: formAction.form.id, actionId: action.id || ''}))
-    })
+    this.formActions
+      .filter(formAction => formAction.form.id && formAction.actions.length > 0)
+      .map(formAction => {
+        formAction.actions.forEach(action => request.push({formId: formAction.form.id || '', actionId: action.id || ''}))
+      })
     this.actionService.saveMapping(request).subscribe(res => {
       console.log(res)
     });

@@ -17,7 +17,7 @@ export class SubmissionService extends HTTP {
     return this.post("submissions", submission);
   }
 
-  getAll(pagingRequest = {page: 1, size: 10}): Observable<PagingResponse<SubmissionDto>> {
+  getAll(pagingRequest = {page: 1, size: 10, orders: {createdDate: "DESC"}}): Observable<PagingResponse<SubmissionDto>> {
     return this.post("submissions/all", pagingRequest)
   }
 }

@@ -29,7 +29,7 @@ export class ListComponent implements OnInit {
     this.getForms();
   }
 
-  goToBuilder(formId: string): void {
+  goToBuilder(formId: string | undefined): void {
     this.router.navigate(["forms/create"], {
       queryParams: {formId}
     }).then()

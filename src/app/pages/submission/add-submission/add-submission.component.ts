@@ -1,4 +1,4 @@
-import {AfterViewInit, ChangeDetectorRef, Component, OnInit} from '@angular/core';
+import {AfterViewInit, Component, OnInit} from '@angular/core';
 import {PageHeaderComponent} from "../../../shared/components/page-header/page-header.component";
 import {ShareModule} from "../../../shared/share.module";
 import {FormsModule} from "@angular/forms";
@@ -12,6 +12,7 @@ import {FormioModule} from "@formio/angular";
 import {SubmissionDto} from "../../../model/SubmissionDto";
 import {NzMessageService} from "ng-zorro-antd/message";
 import {SubmissionService} from "../../../services/submission/submission.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-add-submission',
@@ -28,7 +29,6 @@ import {SubmissionService} from "../../../services/submission/submission.service
   styleUrl: './add-submission.component.scss'
 })
 export class AddSubmissionComponent implements OnInit, AfterViewInit {
-  formOfOption: Array<{ label: string; value: string }> = [];
   formTemplates: FormDto[] = [];
   formTarget?: FormDto;
   submission: SubmissionDto = {
@@ -39,9 +39,9 @@ export class AddSubmissionComponent implements OnInit, AfterViewInit {
   constructor(
     private formService: FormService,
     private store: Store<AppState>,
-    private cdr: ChangeDetectorRef,
     private message: NzMessageService,
-    private submissionService: SubmissionService
+    private submissionService: SubmissionService,
+    private router: Router
   ) {
   }
 
@@ -60,16 +60,9 @@ export class AddSubmissionComponent implements OnInit, AfterViewInit {
         }
       )
     );
-    this.cdr.detectChanges();
   }
 
   ngOnInit(): void {
-    const children: Array<{ label: string; value: string }> = [];
-    for (let i = 10; i < 36; i++) {
-      children.push({label: i.toString(36) + i, value: i.toString(36) + i});
-    }
-    this.formOfOption = children;
-
     this.getFormTemplate();
   }
 
@@ -84,7 +77,8 @@ export class AddSubmissionComponent implements OnInit, AfterViewInit {
 
       this.submissionService.addSubmission(this.submission)
         .subscribe(res => {
-          this.message.success(`Add submission to form ${this.formTarget?.name} successfully!`)
+          this.message.success(`Add submission to form ${this.formTarget?.name} successfully!`);
+          this.router.navigate(["/submissions"])
         });
     } else {
       this.message.error('Not have form is selected!')
