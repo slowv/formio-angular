@@ -16,7 +16,6 @@ export class Spinner implements HttpInterceptor {
   constructor(private store: Store<AppState>) {}
 
   intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
-    console.log('Spinner HttpInterceptor >>>>>>>>>>>>>>>>>>>>>')
     this.totalRequests++;
     this.store.dispatch(showSpinner());
 
