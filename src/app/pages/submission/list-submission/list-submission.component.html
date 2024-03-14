@@ -1,7 +1,7 @@
 <div class="list-submission-component">
   <app-page-header
-  [title]="'Submissions'"
-  subTitle="List submission"
+    [title]="'Submissions'"
+    subTitle="List submission"
   ></app-page-header>
 
   <nz-table
@@ -23,7 +23,7 @@
     <tbody>
     <tr *ngFor="let data of basicTable.data">
       <td>{{ data.id }}</td>
-      <td>{{ data.formName }}</td>
+      <td><a [routerLink]="'/forms/create'" [queryParams]="{formId: data.formId}">{{ data.formName }}</a></td>
       <td>{{ data.createdDate | date:"dd/MM/yyyy HH:mm:ss" }}</td>
       <td>{{ data.lastModifiedDate | date:"dd/MM/yyyy HH:mm:ss" }}</td>
       <td>{{ data.createdBy }}</td>

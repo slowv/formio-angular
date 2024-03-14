@@ -9,6 +9,7 @@ import {ShareModule} from "../../../shared/share.module";
 import {ActivatedRoute, Router} from "@angular/router";
 import {PageHeaderComponent} from "../../../shared/components/page-header/page-header.component";
 import {NzMessageService} from "ng-zorro-antd/message";
+import {Location} from "@angular/common";
 
 @Component({
   selector: 'app-builder',
@@ -48,12 +49,10 @@ export class BuilderComponent implements OnInit {
   ngOnInit(): void {
     this.activatedRoute.queryParams.subscribe(params => {
       this.formId = params['formId'];
-      console.log(this.formId)
       if (this.formId) {
         this.formService.getForm(this.formId)
           .subscribe(form => {
             this.form = form;
-
           });
       }
     })
