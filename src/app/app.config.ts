@@ -10,7 +10,7 @@ import {
 
 import {routes} from './app.routes';
 import {en_US, provideNzI18n} from "ng-zorro-antd/i18n";
-import {NZ_CONFIG, NzConfig} from "ng-zorro-antd/core/config";
+import {NZ_CONFIG, NzConfig, provideNzConfig} from "ng-zorro-antd/core/config";
 import {BrowserAnimationsModule, provideAnimations} from "@angular/platform-browser/animations";
 import {StoreModule} from "@ngrx/store";
 import {rootReducer} from "./store/appState";
@@ -47,8 +47,16 @@ export const appConfig: ApplicationConfig = {
       EffectsModule.forRoot(appEffect)
     ]),
     provideAnimations(),
-    provideHttpClient(withInterceptors([spinnerInterceptor, tokenInvalid, tokenInterceptor])),
-    {provide: NZ_CONFIG, useValue: ngZorroConfig},
-    provideNzI18n(en_US)
+    provideHttpClient(
+      withInterceptors(
+        [
+          spinnerInterceptor,
+          tokenInvalid,
+          tokenInterceptor
+        ]
+      )
+    ),
+    provideNzI18n(en_US),
+    provideNzConfig(ngZorroConfig)
   ]
 };
