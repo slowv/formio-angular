@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {SubmissionService} from "../../../services/submission/submission.service";
+import {SubmissionService} from "../../../services/api/submission/submission.service";
 import {SubmissionDto} from "../../../model/SubmissionDto";
 import {PageHeaderComponent} from "../../../shared/components/page-header/page-header.component";
 import {ShareModule} from "../../../shared/share.module";
@@ -8,12 +8,13 @@ import {PagingResponse} from "../../../model/PagingResponse";
 import {setBreadcrumbs} from "../../../store/action/config.action";
 import {Store} from "@ngrx/store";
 import {AppState} from "../../../store/appState";
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-list-submission',
   standalone: true,
   imports: [
-    PageHeaderComponent, ShareModule, NgForOf, JsonPipe, DatePipe
+    PageHeaderComponent, ShareModule, NgForOf, JsonPipe, DatePipe, RouterLink
   ],
   templateUrl: './list-submission.component.html',
   styleUrl: './list-submission.component.scss'

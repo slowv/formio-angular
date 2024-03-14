@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
-import {HTTP} from "../http";
+import {HTTP} from "../../http";
 import {HttpClient} from "@angular/common/http";
-import {FormDto} from "../../model/FormDto";
+import {FormDto} from "../../../model/FormDto";
 import {Observable} from "rxjs";
 
 @Injectable({

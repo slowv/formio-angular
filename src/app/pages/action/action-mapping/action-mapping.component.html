@@ -18,9 +18,17 @@
       </div>
       <div nz-col nzSpan="12">
         <div nz-typography class="text-bold">Action</div>
-        <nz-tag *ngFor="let action of formAction.actions; let i = index"
-                [nzColor]="getRandomColorTag(i)">{{ action.name }}
-        </nz-tag>
+        <div class="d-flex">
+          <div *ngFor="let action of formAction.actions; let i = index" class="box-action">
+            <nz-tag [nzColor]="getRandomColorTag(i)" style="margin-right: 0;">
+              {{ action.name }}
+            </nz-tag>
+            <ng-container *ngIf="i < formAction.actions.length - 1">
+              <span nz-icon nzType="double-right" nzTheme="outline" class="mx-1"></span>
+            </ng-container>
+          </div>
+        </div>
+
       </div>
     </div>
   </ng-container>

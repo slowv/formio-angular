@@ -3,6 +3,7 @@
     class="site-page-header"
     [nzTitle]="title"
     [nzSubtitle]="subTitle"
+    [nzBackIcon]="icon"
   ></nz-page-header>
   <ng-container *ngIf="enableButton">
     <button nz-button nzType="primary" (click)="onClick()">
@@ -10,3 +11,9 @@
     </button>
   </ng-container>
 </div>
+
+<ng-template #icon *ngIf="enableIconBack">
+  <span nz-icon nzType="arrow-left" nzTheme="outline"
+        (click)="back()"
+  ></span>
+</ng-template>

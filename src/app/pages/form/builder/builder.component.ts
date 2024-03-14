@@ -4,11 +4,12 @@ import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 import {Title} from "@angular/platform-browser";
 import {FormDto} from "../../../model/FormDto";
 import {FormsModule} from "@angular/forms";
-import {FormService} from "../../../services/form/form.service";
+import {FormService} from "../../../services/api/form/form.service";
 import {ShareModule} from "../../../shared/share.module";
 import {ActivatedRoute, Router} from "@angular/router";
 import {PageHeaderComponent} from "../../../shared/components/page-header/page-header.component";
 import {NzMessageService} from "ng-zorro-antd/message";
+import {Location} from "@angular/common";
 
 @Component({
   selector: 'app-builder',
@@ -48,12 +49,10 @@ export class BuilderComponent implements OnInit {
   ngOnInit(): void {
     this.activatedRoute.queryParams.subscribe(params => {
       this.formId = params['formId'];
-      console.log(this.formId)
       if (this.formId) {
         this.formService.getForm(this.formId)
           .subscribe(form => {
             this.form = form;
-
           });
       }
     })

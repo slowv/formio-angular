@@ -1,8 +1,9 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {NzPageHeaderComponent} from "ng-zorro-antd/page-header";
 import {NzButtonComponent} from "ng-zorro-antd/button";
 import {NzIconDirective} from "ng-zorro-antd/icon";
-import {NgIf} from "@angular/common";
+import {Location, NgIf} from "@angular/common";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-page-header',
@@ -16,7 +17,7 @@ import {NgIf} from "@angular/common";
   templateUrl: './page-header.component.html',
   styleUrl: './page-header.component.scss'
 })
-export class PageHeaderComponent {
+export class PageHeaderComponent implements OnInit {
   @Input()
   title: string = '';
   @Input()
@@ -24,8 +25,29 @@ export class PageHeaderComponent {
   @Input()
   enableButton = false;
 
+  enableIconBack = false;
+
   @Input()
   onClick!: Function;
+
   @Input()
   btnTitle: string = '';
+
+
+  constructor(
+    private location: Location,
+    private router: Router
+  ) {
+  }
+
+  ngOnInit(): void {
+    this.enableIconBack = this.router.navigated;
+  }
+
+
+  back() {
+    if (this.location) {
+      this.location.back();
+    }
+  }
 }

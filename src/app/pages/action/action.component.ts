@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {ActionService} from "../../services/action/action.service";
+import {ActionService} from "../../services/api/action/action.service";
 import {ActionDto} from "../../model/ActionDto";
 import {setBreadcrumbs} from "../../store/action/config.action";
 import {Store} from "@ngrx/store";

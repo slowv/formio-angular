@@ -1,9 +1,9 @@
 import {Injectable} from "@angular/core";
-import {HTTP} from "../http";
+import {HTTP} from "../../http";
 import {HttpClient} from "@angular/common/http";
-import {SubmissionDto} from "../../model/SubmissionDto";
+import {SubmissionDto} from "../../../model/SubmissionDto";
 import {Observable} from "rxjs";
-import {PagingResponse} from "../../model/PagingResponse";
+import {PagingResponse} from "../../../model/PagingResponse";
 
 @Injectable({
   providedIn: 'root'
