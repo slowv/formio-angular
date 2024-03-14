@@ -22,6 +22,8 @@ import {FormioAppConfig} from "@formio/angular";
 import {registerLocaleData} from '@angular/common';
 import en from '@angular/common/locales/en';
 import {FormsModule} from '@angular/forms';
+import {tokenInvalid} from "./services/interceptor/token/invalid/token-invalid.interceptor";
+import {tokenInterceptor} from "./services/interceptor/token/token.interceptor";
 
 registerLocaleData(en);
 
@@ -44,6 +46,8 @@ export const appConfig: ApplicationConfig = {
         StoreDevtoolsModule.instrument({maxAge: 25, logOnly: false}),
       ]),
     {provide: HTTP_INTERCEPTORS, useClass: Spinner, multi: true},
+    {provide: HTTP_INTERCEPTORS, useFactory: tokenInvalid, multi: true},
+    {provide: HTTP_INTERCEPTORS, useFactory: tokenInterceptor, multi: true},
     {provide: NZ_CONFIG, useValue: ngZorroConfig},
     provideNzI18n(en_US),
     importProvidersFrom(FormsModule),
