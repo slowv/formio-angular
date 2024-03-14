@@ -9,8 +9,9 @@ import {FormService} from "../../../services/api/form/form.service";
 import {FormActionDto} from "../../../model/FormActionDto";
 import {ActionDto} from "../../../model/ActionDto";
 import {ShareModule} from "../../../shared/share.module";
-import {NgForOf} from "@angular/common";
+import {NgForOf, NgIf} from "@angular/common";
 import {FormsModule} from "@angular/forms";
+import {sortBy} from "lodash";
 
 @Component({
   selector: 'app-action-mapping',
@@ -19,7 +20,8 @@ import {FormsModule} from "@angular/forms";
     PageHeaderComponent,
     ShareModule,
     NgForOf,
-    FormsModule
+    FormsModule,
+    NgIf
   ],
   templateUrl: './action-mapping.component.html',
   styleUrl: './action-mapping.component.scss'
@@ -75,7 +77,12 @@ export class ActionMappingComponent implements OnInit, AfterViewInit {
   }
 
   getFormActions() {
-    this.actionService.getAllFromAction().subscribe(res => this.formActions = res)
+    this.actionService.getAllFromAction().subscribe(res => {
+      console.log(res);
+      console.log(sortBy(res, "priority"))
+      this.formActions = res;
+      this.formActions.forEach(formAction => formAction.actions = sortBy(formAction.actions, "priority"))
+    })
   }
 
   addMapping(): void {
