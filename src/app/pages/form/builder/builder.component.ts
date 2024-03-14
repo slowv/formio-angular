@@ -4,7 +4,7 @@ import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 import {Title} from "@angular/platform-browser";
 import {FormDto} from "../../../model/FormDto";
 import {FormsModule} from "@angular/forms";
-import {FormService} from "../../../services/form/form.service";
+import {FormService} from "../../../services/api/form/form.service";
 import {ShareModule} from "../../../shared/share.module";
 import {ActivatedRoute, Router} from "@angular/router";
 import {PageHeaderComponent} from "../../../shared/components/page-header/page-header.component";

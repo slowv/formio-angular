@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {SubmissionService} from "../../../services/submission/submission.service";
+import {SubmissionService} from "../../../services/api/submission/submission.service";
 import {SubmissionDto} from "../../../model/SubmissionDto";
 import {PageHeaderComponent} from "../../../shared/components/page-header/page-header.component";
 import {ShareModule} from "../../../shared/share.module";

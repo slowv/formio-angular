@@ -1,6 +1,12 @@
 import {ApplicationConfig, importProvidersFrom} from '@angular/core';
 import {provideRouter} from '@angular/router';
-import {HTTP_INTERCEPTORS, provideHttpClient, withInterceptors, withInterceptorsFromDi, HttpClientModule} from "@angular/common/http";
+import {
+  HTTP_INTERCEPTORS,
+  provideHttpClient,
+  withInterceptors,
+  withInterceptorsFromDi,
+  HttpClientModule
+} from "@angular/common/http";
 
 import {routes} from './app.routes';
 import {en_US, NZ_I18N, provideNzI18n} from "ng-zorro-antd/i18n";
@@ -13,9 +19,9 @@ import {Spinner} from "./services/interceptor/spinner/spinner.service";
 import {StoreDevtoolsModule} from "@ngrx/store-devtools";
 import {environment} from "../environments/environment";
 import {FormioAppConfig} from "@formio/angular";
-import { registerLocaleData } from '@angular/common';
+import {registerLocaleData} from '@angular/common';
 import en from '@angular/common/locales/en';
-import { FormsModule } from '@angular/forms';
+import {FormsModule} from '@angular/forms';
 
 registerLocaleData(en);
 
@@ -28,7 +34,6 @@ const ngZorroConfig: NzConfig = {
 export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
-    provideAnimations(),
     importProvidersFrom(BrowserAnimationsModule),
     provideHttpClient(withInterceptorsFromDi()),
     importProvidersFrom(
@@ -36,13 +41,13 @@ export const appConfig: ApplicationConfig = {
         StoreModule.forRoot(
           rootReducer, {metaReducers: [localStorageSyncReducer]}
         ),
-        StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: false }),
-    ]),
-    { provide: HTTP_INTERCEPTORS, useClass: Spinner, multi: true },
-    { provide: NZ_CONFIG, useValue: ngZorroConfig },
+        StoreDevtoolsModule.instrument({maxAge: 25, logOnly: false}),
+      ]),
+    {provide: HTTP_INTERCEPTORS, useClass: Spinner, multi: true},
+    {provide: NZ_CONFIG, useValue: ngZorroConfig},
     provideNzI18n(en_US),
     importProvidersFrom(FormsModule),
     importProvidersFrom(HttpClientModule),
     provideAnimations()
-]
+  ]
 };

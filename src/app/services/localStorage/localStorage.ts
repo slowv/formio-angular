@@ -20,7 +20,7 @@ function decryptFunction(str: string = '') {
 
 export function localStorageSyncReducer(reducer: ActionReducer<any>): ActionReducer<any> {
   return localStorageSync({
-    keys: [{ auth: { encrypt: encryptFunction, decrypt: decryptFunction } }],
+    keys: [{auth: {encrypt: encryptFunction, decrypt: decryptFunction}}],
     rehydrate: true   // allowed init state from local storage
   })(reducer);
 }

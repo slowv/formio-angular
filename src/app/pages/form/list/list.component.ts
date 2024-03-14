@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ShareModule} from "../../../shared/share.module";
 import {Title} from "@angular/platform-browser";
-import {FormService} from "../../../services/form/form.service";
+import {FormService} from "../../../services/api/form/form.service";
 import {FormDto} from "../../../model/FormDto";
 import {NgForOf} from "@angular/common";
 import {Router, RouterLink} from "@angular/router";

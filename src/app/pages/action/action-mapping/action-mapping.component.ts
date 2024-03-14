@@ -1,11 +1,11 @@
 import {AfterViewInit, Component, OnInit} from '@angular/core';
 import {PageHeaderComponent} from "../../../shared/components/page-header/page-header.component";
 import {setBreadcrumbs} from "../../../store/action/config.action";
-import {ActionService} from "../../../services/action/action.service";
+import {ActionService} from "../../../services/api/action/action.service";
 import {Store} from "@ngrx/store";
 import {AppState} from "../../../store/appState";
 import {FormDto} from "../../../model/FormDto";
-import {FormService} from "../../../services/form/form.service";
+import {FormService} from "../../../services/api/form/form.service";
 import {FormActionDto} from "../../../model/FormActionDto";
 import {ActionDto} from "../../../model/ActionDto";
 import {ShareModule} from "../../../shared/share.module";

@@ -3,7 +3,7 @@ import {PageHeaderComponent} from "../../../shared/components/page-header/page-h
 import {ShareModule} from "../../../shared/share.module";
 import {FormsModule} from "@angular/forms";
 import {NgForOf, NgIf} from "@angular/common";
-import {FormService} from "../../../services/form/form.service";
+import {FormService} from "../../../services/api/form/form.service";
 import {Store} from "@ngrx/store";
 import {AppState} from "../../../store/appState";
 import {setBreadcrumbs} from "../../../store/action/config.action";
@@ -11,7 +11,7 @@ import {FormDto} from "../../../model/FormDto";
 import {FormioModule} from "@formio/angular";
 import {SubmissionDto} from "../../../model/SubmissionDto";
 import {NzMessageService} from "ng-zorro-antd/message";
-import {SubmissionService} from "../../../services/submission/submission.service";
+import {SubmissionService} from "../../../services/api/submission/submission.service";
 import {Router} from "@angular/router";
 
 @Component({
