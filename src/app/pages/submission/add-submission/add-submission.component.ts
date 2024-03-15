@@ -28,7 +28,7 @@ import {Router} from "@angular/router";
   templateUrl: './add-submission.component.html',
   styleUrl: './add-submission.component.scss'
 })
-export class AddSubmissionComponent implements OnInit, AfterViewInit {
+export class AddSubmissionComponent implements OnInit {
   formTemplates: FormDto[] = [];
   formTarget?: FormDto;
   submission: SubmissionDto = {
@@ -43,23 +43,6 @@ export class AddSubmissionComponent implements OnInit, AfterViewInit {
     private submissionService: SubmissionService,
     private router: Router
   ) {
-  }
-
-  ngAfterViewInit(): void {
-    this.store.dispatch(
-      setBreadcrumbs({
-          breadcrumbs: [
-            {
-              label: 'Submissions',
-              url: '/submissions'
-            },
-            {
-              label: 'Add submission',
-            }
-          ]
-        }
-      )
-    );
   }
 
   ngOnInit(): void {

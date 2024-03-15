@@ -26,7 +26,7 @@ import {sortBy} from "lodash";
   templateUrl: './action-mapping.component.html',
   styleUrl: './action-mapping.component.scss'
 })
-export class ActionMappingComponent implements OnInit, AfterViewInit {
+export class ActionMappingComponent implements OnInit {
   forms: FormDto[] = [];
   formActions: FormActionDto[] = [];
   actions: ActionDto[] = []
@@ -38,23 +38,6 @@ export class ActionMappingComponent implements OnInit, AfterViewInit {
     private store: Store<AppState>,
     private formService: FormService
   ) {
-  }
-
-  ngAfterViewInit(): void {
-    this.store.dispatch(
-      setBreadcrumbs({
-          breadcrumbs: [
-            {
-              label: 'Actions',
-              url: '/actions'
-            },
-            {
-              label: 'Mapping',
-            }
-          ]
-        }
-      )
-    );
   }
 
   shuffle(array: string[]) {
@@ -78,8 +61,6 @@ export class ActionMappingComponent implements OnInit, AfterViewInit {
 
   getFormActions() {
     this.actionService.getAllFromAction().subscribe(res => {
-      console.log(res);
-      console.log(sortBy(res, "priority"))
       this.formActions = res;
       this.formActions.forEach(formAction => formAction.actions = sortBy(formAction.actions, "priority"))
     })
@@ -90,6 +71,7 @@ export class ActionMappingComponent implements OnInit, AfterViewInit {
       {
         actions: this.actions,
         form: {
+          id: 'TEMP#',
           name: '',
           components: [],
           title: '',
