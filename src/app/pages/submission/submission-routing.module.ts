@@ -7,12 +7,14 @@ export const routes: Routes = [
   {
     path: '',
     component: ListSubmissionComponent,
-    title: 'List submission'
+    title: 'List submission',
+    data: {breadcrumb: 'List'}
   },
   {
     path: 'add',
     component: AddSubmissionComponent,
-    title: 'Add Submission'
+    title: 'Add Submission',
+    data: {breadcrumb: 'Add'}
   }
 ];
 

@@ -17,33 +17,23 @@ import {Router} from "@angular/router";
   templateUrl: './page-header.component.html',
   styleUrl: './page-header.component.scss'
 })
-export class PageHeaderComponent implements OnInit {
+export class PageHeaderComponent {
   @Input()
   title: string = '';
   @Input()
   subTitle: string = '';
   @Input()
   enableButton = false;
-
-  enableIconBack = false;
-
   @Input()
   onClick!: Function;
 
   @Input()
   btnTitle: string = '';
 
-
   constructor(
     private location: Location,
-    private router: Router
   ) {
   }
-
-  ngOnInit(): void {
-    this.enableIconBack = this.router.navigated;
-  }
-
 
   back() {
     if (this.location) {

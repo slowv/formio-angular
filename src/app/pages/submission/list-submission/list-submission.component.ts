@@ -33,26 +33,11 @@ export class ListSubmissionComponent implements OnInit {
   showModal = false;
 
   constructor(
-    private submissionService: SubmissionService,
-    private store: Store<AppState>
+    private submissionService: SubmissionService
   ) {
   }
 
   ngOnInit(): void {
-    this.store.dispatch(
-      setBreadcrumbs({
-          breadcrumbs: [
-            {
-              label: 'Submissions',
-              url: '/submissions'
-            },
-            {
-              label: 'List',
-            }
-          ]
-        }
-      )
-    );
     this.getAll();
   }
 

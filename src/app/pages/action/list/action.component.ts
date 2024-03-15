@@ -1,9 +1,9 @@
 import {Component, OnInit} from '@angular/core';
-import {ActionService} from "../../services/api/action/action.service";
-import {ActionDto} from "../../model/ActionDto";
-import {setBreadcrumbs} from "../../store/action/config.action";
+import {ActionService} from "../../../services/api/action/action.service";
+import {ActionDto} from "../../../model/ActionDto";
+import {setBreadcrumbs} from "../../../store/action/config.action";
 import {Store} from "@ngrx/store";
-import {AppState} from "../../store/appState";
+import {AppState} from "../../../store/appState";
 import {DatePipe, NgForOf} from "@angular/common";
 import {NzButtonComponent} from "ng-zorro-antd/button";
 import {NzIconDirective} from "ng-zorro-antd/icon";
@@ -15,8 +15,8 @@ import {
   NzThMeasureDirective, NzTrDirective
 } from "ng-zorro-antd/table";
 import {NzWaveDirective} from "ng-zorro-antd/core/wave";
-import {PagingResponse} from "../../model/PagingResponse";
-import {PageHeaderComponent} from "../../shared/components/page-header/page-header.component";
+import {PagingResponse} from "../../../model/PagingResponse";
+import {PageHeaderComponent} from "../../../shared/components/page-header/page-header.component";
 
 @Component({
   selector: 'app-action',
@@ -50,27 +50,11 @@ export class ActionComponent implements OnInit {
   };
 
   constructor(
-    private actionService: ActionService,
-    private store: Store<AppState>
+    private actionService: ActionService
   ) {
   }
 
   ngOnInit(): void {
-    this.store.dispatch(
-      setBreadcrumbs({
-          breadcrumbs: [
-            {
-              label: 'Actions',
-              url: '/Actions'
-            },
-            {
-              label: 'List',
-            }
-          ]
-        }
-      )
-    );
-
     this.actionService.getAll().subscribe(res => this.actions = res);
   }
 

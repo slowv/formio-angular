@@ -1,30 +1,19 @@
 import {Routes} from '@angular/router';
-import {BuilderComponent} from "./pages/form/builder/builder.component";
-import {ListComponent} from "./pages/form/list/list.component";
-import {ActionComponent} from "./pages/action/action.component";
-import {ActionMappingComponent} from "./pages/action/action-mapping/action-mapping.component";
 
 export const routes: Routes = [
   {
-    path: '',
-    component: ListComponent
-  },
-  {
-    path: 'forms/create',
-    component: BuilderComponent
+    path: 'forms',
+    loadChildren: () => import('./pages/form/form.module').then(m => m.FormModule),
+    data: {breadcrumb: 'Form'}
   },
   {
     path: 'submissions',
-    loadChildren: () => import('./pages/submission/submission.module').then(m => m.SubmissionModule)
+    loadChildren: () => import('./pages/submission/submission.module').then(m => m.SubmissionModule),
+    data: {breadcrumb: 'Submission'}
   },
   {
     path: 'actions',
-    component: ActionComponent,
-    title: 'Actions'
-  },
-  {
-    path: 'actions/mapping',
-    component: ActionMappingComponent,
-    title: 'Actions mapping'
+    loadChildren: () => import('./pages/action/actions.module').then(m => m.ActionsModule),
+    data: {breadcrumb: 'Action'}
   }
 ];
